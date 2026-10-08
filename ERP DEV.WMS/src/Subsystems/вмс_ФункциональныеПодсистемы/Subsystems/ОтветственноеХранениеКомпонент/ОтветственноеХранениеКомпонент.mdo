@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b732d95b-86b4-46f0-b730-ef11be10e80a">
+  <name>ОтветственноеХранениеКомпонент</name>
+  <synonym>
+    <key>ru</key>
+    <value>AS 3PL</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Библиотека для работы с ответственным хранением на складе
+</value>
+  </explanation>
+  <subsystems>БазовыйФункционал</subsystems>
+  <subsystems>ЛичныйКабинетПоклажедателя</subsystems>
+  <subsystems>ОтчетностьИМониторинг</subsystems>
+  <parentSubsystem>Subsystem.вмс_ФункциональныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

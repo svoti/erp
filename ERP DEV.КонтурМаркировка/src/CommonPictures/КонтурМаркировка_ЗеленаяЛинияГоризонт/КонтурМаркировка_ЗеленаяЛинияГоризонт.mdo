@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d18971e4-ddc6-4211-b473-204c36b272fc">
+  <name>КонтурМаркировка_ЗеленаяЛинияГоризонт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зеленая линия горизонтальная (Контур.Маркировка)</value>
+  </synonym>
+</mdclass:CommonPicture>

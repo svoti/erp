@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e779901-9e09-421e-ad3b-25ff63232cc7">
+  <producedTypes>
+    <selectionType typeId="b6736a3a-f7e7-406d-b8c1-6bc20ede5806" valueTypeId="ef966899-4327-43be-b4dc-bf29ab79f729"/>
+    <listType typeId="aed33118-5a9b-400e-9a77-9526be402287" valueTypeId="0c34d10f-6aa2-4e99-bc8b-9e750e677822"/>
+    <managerType typeId="bd85bbef-9488-428a-a26d-207ff9bbeab5" valueTypeId="902c2f6e-bcf1-4f99-b7bd-6ac7898e220a"/>
+    <recordSetType typeId="99a34cc0-e5b0-4646-9269-101b8e987b8b" valueTypeId="1fba9e5e-5b75-4b16-8053-0378a08f8f1e"/>
+    <recordKeyType typeId="20e14c18-a35b-471b-ac8e-9aeeb610865a" valueTypeId="49207257-5022-45a3-a0d8-6457b112fea6"/>
+    <recordType typeId="d1251494-4d29-45fa-abf4-7abfd8a29419" valueTypeId="d6f1fc35-f583-41c6-a7f2-cda79abe2f57"/>
+    <recordManagerType typeId="b49d0538-ff37-4668-b870-da8be74b24a1" valueTypeId="ae89e274-f5ae-44e0-9462-6023abd224e6"/>
+  </producedTypes>
+  <name>вмс_СписокПолучателейОповещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список получателей оповещений ТСД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="bfabff82-4281-4d80-9e52-53e6ec22cd93">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

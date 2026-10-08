@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ad1646a-0420-4493-8153-6f43b236b108">
+  <name>вмс_ВыравниваниеВертикальноеЦентр</name>
+  <synonym>
+    <key>ru</key>
+    <value>WMS выравнивание вертикальное центр</value>
+  </synonym>
+</mdclass:CommonPicture>

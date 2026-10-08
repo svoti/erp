@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1344f9d7-d887-43bb-ac7f-20ca72a24105">
+  <name>вмс_ОпросПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>WMS опрос пользователя</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

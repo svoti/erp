@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c037f80c-1821-422f-9633-22a5a1109f0f">
+  <name>вмс_СобратьПаллетуПоРаспоряжению</name>
+  <synonym>
+    <key>ru</key>
+    <value>Собрать паллету</value>
+  </synonym>
+  <group>FormCommandBarCreateBasedOn</group>
+  <commandParameterType>
+    <types>DocumentRef.вмс_ЗаданиеКладовщику</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.вмс_Коробка</picture>
+  </picture>
+</mdclass:CommonCommand>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80e35735-4fb9-402b-9374-59e013bf8ff3">
+  <name>вмс_ЛокализацияВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>WMS локализация вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

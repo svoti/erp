@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a235f42b-63ff-4743-9c69-2b94cf74bed0">
+  <producedTypes>
+    <refType typeId="a5c53e3a-0e44-420a-89bd-4201fe0d27aa" valueTypeId="a2c97cda-3d89-44fe-a089-821978209b00"/>
+    <listType typeId="618c2656-b9b9-4b47-9c1e-a598ccd922f1" valueTypeId="3be9036a-0788-44e3-9d44-1d5ef74564da"/>
+    <managerType typeId="e8ab0b15-db40-4f33-9aff-9ccbfc826ea5" valueTypeId="43401fbf-d9f0-4729-b349-3852195c6b64"/>
+  </producedTypes>
+  <name>вмс_ВидыБлокировокЯчеек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды блокировок ячеек</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="11983afa-01b0-4639-a800-0b3b0f246ebb">
+    <name>Полная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a93913fd-e23c-44c4-8273-775b72a3f231">
+    <name>Размещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73b2729a-3700-4061-9b6b-e9013c039198">
+    <name>Отбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

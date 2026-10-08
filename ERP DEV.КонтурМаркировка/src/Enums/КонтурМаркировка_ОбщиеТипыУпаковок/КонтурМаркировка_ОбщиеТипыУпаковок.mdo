@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="674fc64c-7e95-4da2-8d93-ddde359c9d17">
+  <producedTypes>
+    <refType typeId="a4243ad7-070c-4212-9899-bfddb6d9ea4b" valueTypeId="13ed0023-8076-47af-bda1-dffec91b0b07"/>
+    <listType typeId="3091983a-a690-4ec8-bb0e-7e5ea0713e68" valueTypeId="3d7b6db3-c473-4285-bf79-6fe1131fc622"/>
+    <managerType typeId="9b03ab27-6a7d-4b29-a799-87cf465d4ce1" valueTypeId="b4f486de-5f1e-4050-acce-fa7087fb7c0b"/>
+  </producedTypes>
+  <name>КонтурМаркировка_ОбщиеТипыУпаковок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие типы упаковок (Контур.Маркировка)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4f9c1651-7516-4adb-a3c2-530b6abaf044">
+    <name>ЕдиницаТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица товара</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f034b19f-212d-4e13-8f3e-853a775781fe">
+    <name>ГрупповаяУпаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповая упаковка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="052f6f6e-c0d6-4923-bc59-af2a7db5ac2a">
+    <name>ТранспортнаяУпаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортная упаковка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b625c76-d536-40c2-a349-cd1e590bad23">
+    <name>Комплект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fb5528de-0eec-4d06-8967-4e26a1118d32">
+    <name>Набор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="51600130-96b0-4a05-b529-69bc9523498a">
+    <name>АТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТК</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

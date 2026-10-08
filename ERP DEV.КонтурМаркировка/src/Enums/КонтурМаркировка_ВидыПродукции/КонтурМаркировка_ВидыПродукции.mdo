@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11b57595-7221-4caa-9dce-fe75ac7ba725">
+  <producedTypes>
+    <refType typeId="7931d9b3-1c49-4c80-b3cb-386d053aa903" valueTypeId="89d8bda9-6c19-4185-a73f-7ea3e4b60368"/>
+    <listType typeId="da24d69c-7321-4bbd-8708-90ce71d9f203" valueTypeId="554b86b2-77a2-448b-b520-7a0658022d59"/>
+    <managerType typeId="b2f1b620-6093-4566-a05c-2a0c32a0816e" valueTypeId="83c7cffe-0945-4afe-a9ba-370c71099c7f"/>
+  </producedTypes>
+  <name>КонтурМаркировка_ВидыПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды продукции (Контур.Маркировка)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a71a48d4-92dd-455b-9397-ac0858c6feaa">
+    <name>Табак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табак</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c496f0e-f472-44a6-bc32-6d51ca908ec3">
+    <name>Обувь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обувь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c88b29fb-7747-48cf-9462-046c04f1dc51">
+    <name>Легпром</name>
+    <synonym>
+      <key>ru</key>
+      <value>Легпром</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="26e8e27a-653c-4569-b0e6-0f87e5cf2e30">
+    <name>Шины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шины</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8eb8f478-6e45-4ebc-907b-74c1a91c9f2c">
+    <name>Парфюмерия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Парфюмерия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e6e9dc9b-a899-4dc8-bf77-35a69fb7a921">
+    <name>Фототовары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фототовары</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32940eae-ce12-4e59-b0db-e18802b9f46d">
+    <name>Молоко</name>
+    <synonym>
+      <key>ru</key>
+      <value>Молочная продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2e59e20-5769-4f21-bf9e-87b5ec59d4f2">
+    <name>Велосипеды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Велосипеды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8efe0de8-e1c7-47fb-8510-cb9bb15d6172">
+    <name>МедицинскиеИзделия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Медицинские изделия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="733a3a14-6472-4fb1-a3e5-e1ea7820e116">
+    <name>Вода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b5ca4453-6dbf-4f6c-8e4a-74926a8a1a1f">
+    <name>Пиво</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пиво</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ccda1549-8df8-4ef4-a787-ac082790e60b">
+    <name>Бады</name>
+    <synonym>
+      <key>ru</key>
+      <value>БАДы и специализированное питание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df362112-c13b-46f1-99ae-5ebf428b5e6b">
+    <name>Антисептики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Антисептики</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aebc9d4c-446b-4afb-9fab-6b64fc29a5d5">
+    <name>НикотиносодержащаяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Никотиносодержащая продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a26869d4-ed70-4465-8025-e5a29cf918a8">
+    <name>БезалкогольноеПиво</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безалкогольное пиво</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70f4cd23-deac-462c-a8e8-06f7d4a82ffc">
+    <name>АльтернативныйТабак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Альтернативный табак</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e69e123-e869-4af9-8acd-d30a4ed8e316">
+    <name>Морепродукты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Морепродукты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fac4d66a-0dbc-459e-9cb7-f9b73ac2f819">
+    <name>БезалкогольныеНапитки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соки, безалкогольные напитки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b5168e97-65cf-412f-b8e9-6aa5b5439927">
+    <name>РастительныеМасла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Растительные масла</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf52b41a-d9ed-4fa4-a5a5-9fb1c61e7062">
+    <name>КормаДляЖивотных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корма для животных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac4457ea-9d15-4b3f-9f0a-611a11f6726d">
+    <name>Ветпрепараты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ветеринарные препараты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6753bf8-46a2-4440-8674-1033b34bcd3f">
+    <name>Игрушки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игры и игрушки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="271178ba-12ca-495d-82c7-24400353fc56">
+    <name>Консервы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Консервированная продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1bc2be45-140f-4ad3-81a6-1eafce9428fd">
+    <name>Косметика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Косметика и бытовая химия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="56315bce-b9d5-4209-b279-caec21ee8f18">
+    <name>Электроника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Радиоэлектронная продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75371823-9e77-4f30-b1bd-64bc3f9f4dd8">
+    <name>Пиротехника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пиротехника и средства пожаротушения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e4470fc-d717-48e1-83c0-12d641622de1">
+    <name>МаслаИАвтомобильныеЖидкости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Масла и автомобильные жидкости</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a8efa017-889a-4312-bf5d-959bfab0a2e2">
+    <name>Бакалея</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бакалейная продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de44b139-3ee1-449c-a3a8-52eb9e290c85">
+    <name>ПечатнаяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатная продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="01539e3b-9339-462c-b25f-b56ce61abaa1">
+    <name>ОтопительныеПриборы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отопительные приборы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d4ac0b99-37df-4f58-939b-deacc1378be0">
+    <name>СтроительныеМатериалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строительные материалы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dde281e6-2732-49e8-8b92-aac29ec0c680">
+    <name>Оптоволокно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оптоволокно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="60460463-3f47-44be-a7d1-47689132935d">
+    <name>Алкоголь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алкоголь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d87f5be-ca61-4a0c-8360-725c8cb11385">
+    <name>КабельнаяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кабельная продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bf890e73-54b0-4ab8-956a-97e131c09e5f">
+    <name>ПолимерныеТрубы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полимерные трубы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc92a8d2-2568-4b14-9c82-89fa26064609">
+    <name>Автозапчасти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автозапчасти</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3e72cb4-ac55-4650-881a-eb6038a18165">
+    <name>КондитерскиеИзделия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кондитерские изделия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a6dd5f58-6004-4117-8de4-19d37614e784">
+    <name>МясныеИзделия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мясные изделия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="36932c93-e144-4a51-a817-609e4e630285">
+    <name>ТоварыДляДомаИИнтерьера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары для дома и интерьера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b402a6d-ae4b-49af-87e9-51b224b3cf50">
+    <name>Удобрения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удобрения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1bc6335-1189-4edb-8a9d-4ce2cc58c747">
+    <name>НоутбукиИСмартфоны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ноутбуки и смартфоны</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9194a9e-0f90-412c-be6f-a2abcd8864ef">
+    <name>ЭлектронныеСистемыДоставкиНикотина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронные системы доставки никотина</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4b6f3fd5-7453-45b0-a6a9-65aa1b8ebfb3">
+    <name>ПромышленноеОборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Промышленное оборудование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df1cbcc0-7b2d-4e99-883c-4bf31133d356">
+    <name>ДетскоеПитание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детское питание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8daf732f-3fa9-4f66-bdab-7cb0e82f689a">
+    <name>КормовыеДобавки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кормовые добавки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="880b374a-6864-4f9a-8c0e-8a03335c781c">
+    <name>Полуфабрикаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полуфабрикаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f9807eb-c9ed-46e6-8ed1-217f58d04d55">
+    <name>НатуральныйМех</name>
+    <synonym>
+      <key>ru</key>
+      <value>Натуральный мех</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

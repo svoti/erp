@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9208b39-97d9-4289-8a4d-1db9f10b7be2">
+  <producedTypes>
+    <objectType typeId="4044d2f2-6f0b-4efc-9d0d-33c0be79b71f" valueTypeId="ff01d700-42dc-4530-90ee-fd53b4549adc"/>
+    <managerType typeId="4a5aac1a-6883-4368-b45a-536874967692" valueTypeId="6b568dcb-46e5-40ac-a22b-c55a8fdeb125"/>
+  </producedTypes>
+  <name>КонтурМаркировка_РегламентныеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентные задания для расширения (Контур.Маркировка)</value>
+  </synonym>
+  <comment>РегламентныеЗадания.epf</comment>
+</mdclass:DataProcessor>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8065fedf-c72a-42fb-a281-96f3ecdee166">
+  <name>УправлениеСеансамиУстройств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление сеансами устройств</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Enum.вмс_ВидыВзаимодействияСТерминалом</content>
+  <content>InformationRegister.вмс_АктивныеСеансы</content>
+  <content>InformationRegister.вмс_ЖурналИсполнения</content>
+  <parentSubsystem>Subsystem.вмс_ФункциональныеПодсистемы.Subsystem.ТехнологическоеЯдроКомпонент</parentSubsystem>
+</mdclass:Subsystem>

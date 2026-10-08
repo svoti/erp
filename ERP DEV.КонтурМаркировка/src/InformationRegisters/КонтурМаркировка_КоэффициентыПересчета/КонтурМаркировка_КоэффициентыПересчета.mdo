@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1135b13-a0de-4567-9148-ad360cb49bfb">
+  <producedTypes>
+    <selectionType typeId="368fc4c0-b52c-4fa1-ba7f-406589f419a1" valueTypeId="2f60e7db-6c55-4fe3-b6c3-1e3332831ef7"/>
+    <listType typeId="1993c849-c3d7-415a-8e05-d84ef9e9031c" valueTypeId="ad9fa255-a9ae-4c10-9151-0481238c8994"/>
+    <managerType typeId="decd6a5d-5e6c-4b09-8356-ab7790eccc8b" valueTypeId="430919e3-5da2-441b-9561-f9eb20db68f9"/>
+    <recordSetType typeId="0fb11641-315c-47ec-af53-46314c475e9e" valueTypeId="b3baa407-2892-47f4-9e36-823b59f494da"/>
+    <recordKeyType typeId="9672fbb7-928d-425f-be69-9ad7fd3a7970" valueTypeId="919c4bcf-b105-4892-8f03-189655e20a33"/>
+    <recordType typeId="5998038a-cbee-42fd-8049-6cb55e274843" valueTypeId="db236e1c-e655-46a9-b2c8-b88aa9e35c50"/>
+    <recordManagerType typeId="f36a31db-973e-49af-a98b-9f37d4502e05" valueTypeId="26ade362-72d1-4efc-a594-e2376c628121"/>
+  </producedTypes>
+  <name>КонтурМаркировка_КоэффициентыПересчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коэффициенты пересчета (Контур.Маркировка)</value>
+  </synonym>
+  <comment>Пересчет количества товаров в количество кодов</comment>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.КонтурМаркировка_КоэффициентыПересчета.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.КонтурМаркировка_КоэффициентыПересчета.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1c5cdea4-eff6-4371-b2a4-fdfe4e7ac20b">
+    <name>Знаменатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кол-во ед. товаров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+  </resources>
+  <resources uuid="e57c3d7a-2cc2-4c4d-a9ba-08b3069ddf07">
+    <name>Числитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кол-во кодов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="069a9d2d-7095-4d4b-9726-892ce2f643bc">
+    <name>КлючНоменклатуры1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ номенклатуры 1С</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтурМаркировка_КлючиНоменклатуры1С</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f4500b17-5974-4837-af5e-deca32c6c201">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2e362063-8929-4f2c-8206-656f04461f37">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

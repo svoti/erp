@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ответственный</dataPath>
+			<field>Ответственный</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оператор</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументОснование</dataPath>
+			<field>ДокументОснование</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Распоряжение</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидОперации</dataPath>
+			<field>ВидОперации</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяВСекундах</dataPath>
+			<field>ВремяВСекундах</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяВМинутах</dataPath>
+			<field>ВремяВМинутах</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время в минутах</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=2</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоКонтейнеров</dataPath>
+			<field>КоличествоКонтейнеров</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество контейнеров</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Товар</dataPath>
+			<field>Товар</field>
+			<useRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</useRestriction>
+			<role>
+				<dcscom:required>true</dcscom:required>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Характеристика</dataPath>
+			<field>Характеристика</field>
+			<useRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</useRestriction>
+			<role>
+				<dcscom:required>true</dcscom:required>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоШтук</dataPath>
+			<field>КоличествоШтук</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество штук</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоАртикулов</dataPath>
+			<field>КоличествоАртикулов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество артикулов</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Операция</dataPath>
+			<field>Операция</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Операция</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:required>true</dcscom:required>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Вес</dataPath>
+			<field>Вес</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вес</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПлановоеВремяВМинутах</dataPath>
+			<field>ПлановоеВремяВМинутах</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Плановое время в минутах</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Объем</dataPath>
+			<field>Объем</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объем</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	вмс_ОперацияПоЯчейкам.ДокументОснование КАК ДокументОснование,
+	вмс_ОперацияПоЯчейкам.Ответственный КАК Ответственный,
+	вмс_ОперацияПоЯчейкам.ВидОперации КАК ВидОперации,
+	вмс_ОперацияПоЯчейкам.Ссылка КАК Ссылка,
+	вмс_ОперацияПоЯчейкам.ВремяНачалаОперации КАК ВремяНачалаОперации,
+	вмс_ОперацияПоЯчейкам.ВремяОкончанияОперации КАК ВремяОкончанияОперации,
+	СУММА(ТаблицаСтрок.Количество) КАК КоличествоШтук,
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ ТаблицаСтрок.Контейнер) КАК КоличествоКонтейнеров
+ПОМЕСТИТЬ ВТ_ТаблицаОпераций1
+ИЗ
+	Документ.вмс_ОперацияПоЯчейкам КАК вмс_ОперацияПоЯчейкам
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.вмс_ОперацияПоЯчейкам.Товары КАК ТаблицаСтрок
+		ПО вмс_ОперацияПоЯчейкам.Ссылка = ТаблицаСтрок.Ссылка
+			И (ТаблицаСтрок.Товар &lt;&gt; НЕОПРЕДЕЛЕНО)
+			И (ТаблицаСтрок.Ячейка &lt;&gt; ЗНАЧЕНИЕ(Справочник.вмс_МестаХранения.ПустаяСсылка))
+			И (ТаблицаСтрок.ЯчейкаПриемник &lt;&gt; НЕОПРЕДЕЛЕНО)
+ГДЕ
+	вмс_ОперацияПоЯчейкам.ПометкаУдаления = ЛОЖЬ
+	И ТаблицаСтрок.Ссылка.Дата МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+	И вмс_ОперацияПоЯчейкам.Проведен = ИСТИНА
+
+СГРУППИРОВАТЬ ПО
+	вмс_ОперацияПоЯчейкам.ДокументОснование,
+	вмс_ОперацияПоЯчейкам.Ответственный,
+	вмс_ОперацияПоЯчейкам.ВидОперации,
+	вмс_ОперацияПоЯчейкам.Ссылка,
+	вмс_ОперацияПоЯчейкам.ВремяНачалаОперации,
+	вмс_ОперацияПоЯчейкам.ВремяОкончанияОперации
+
+ОБЪЕДИНИТЬ
+
+ВЫБРАТЬ
+	вмс_ОперацияПоЯчейкам.ДокументОснование,
+	вмс_ОперацияПоЯчейкам.Ответственный,
+	вмс_ОперацияПоЯчейкам.ВидОперации,
+	вмс_ОперацияПоЯчейкам.Ссылка,
+	вмс_ОперацияПоЯчейкам.ВремяНачалаОперации,
+	вмс_ОперацияПоЯчейкам.ВремяОкончанияОперации,
+	СУММА(ТаблицаСтрок.Количество),
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ ТаблицаСтрок.Контейнер)
+ИЗ
+	Документ.вмс_ОперацияПоЯчейкам КАК вмс_ОперацияПоЯчейкам
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.вмс_ОперацияПоЯчейкам.Товары КАК ТаблицаСтрок
+		ПО вмс_ОперацияПоЯчейкам.Ссылка = ТаблицаСтрок.Ссылка
+			И (ТаблицаСтрок.Товар &lt;&gt; НЕОПРЕДЕЛЕНО)
+			И (ТаблицаСтрок.ЯчейкаПриемник &lt;&gt; ЗНАЧЕНИЕ(Справочник.вмс_МестаХранения.ПустаяСсылка))
+			И (ТаблицаСтрок.ЯчейкаПриемник &lt;&gt; НЕОПРЕДЕЛЕНО)
+			И (вмс_ОперацияПоЯчейкам.ВидОперации.Код = "000000001"
+				ИЛИ вмс_ОперацияПоЯчейкам.ВидОперации.Код = "000000013")
+ГДЕ
+	вмс_ОперацияПоЯчейкам.ПометкаУдаления = ЛОЖЬ
+	И ТаблицаСтрок.Ссылка.Дата МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+
+СГРУППИРОВАТЬ ПО
+	вмс_ОперацияПоЯчейкам.ДокументОснование,
+	вмс_ОперацияПоЯчейкам.Ответственный,
+	вмс_ОперацияПоЯчейкам.ВидОперации,
+	вмс_ОперацияПоЯчейкам.ВремяНачалаОперации,
+	вмс_ОперацияПоЯчейкам.ВремяОкончанияОперации,
+	вмс_ОперацияПоЯчейкам.Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ТаблицаОпераций1.ДокументОснование КАК ДокументОснование,
+	ВТ_ТаблицаОпераций1.Ответственный КАК Ответственный,
+	ВТ_ТаблицаОпераций1.ВидОперации КАК ВидОперации,
+	ВТ_ТаблицаОпераций1.Ссылка КАК Ссылка,
+	ВЫБОР
+		КОГДА ВТ_ТаблицаОпераций1.ВремяНачалаОперации &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+				И ВТ_ТаблицаОпераций1.ВремяОкончанияОперации &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+			ТОГДА РАЗНОСТЬДАТ(ВТ_ТаблицаОпераций1.ВремяНачалаОперации, ВТ_ТаблицаОпераций1.ВремяОкончанияОперации, СЕКУНДА)
+		ИНАЧЕ 0
+	КОНЕЦ КАК ВремяВСекундах,
+	ВТ_ТаблицаОпераций1.КоличествоШтук КАК КоличествоШтук,
+	ВТ_ТаблицаОпераций1.КоличествоКонтейнеров КАК КоличествоКонтейнеров,
+	НАЧАЛОПЕРИОДА(вмс_ОперацияПоЯчейкам.Дата, ДЕНЬ) КАК ДатаОперации
+ПОМЕСТИТЬ ВТ_ТаблицаОпераций
+ИЗ
+	ВТ_ТаблицаОпераций1 КАК ВТ_ТаблицаОпераций1
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.вмс_ОперацияПоЯчейкам КАК вмс_ОперацияПоЯчейкам
+		ПО ВТ_ТаблицаОпераций1.Ссылка = вмс_ОперацияПоЯчейкам.Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВЫБОР
+		КОГДА вмс_ОперацияПоЯчейкамТовары.Ссылка.ДокументОснование = НЕОПРЕДЕЛЕНО
+			ТОГДА 0
+		ИНАЧЕ КОЛИЧЕСТВО(РАЗЛИЧНЫЕ вмс_ОперацияПоЯчейкамТовары.Контейнер)
+	КОНЕЦ КАК КоличествоКонтейнеров,
+	вмс_ОперацияПоЯчейкамТовары.Ссылка.ДокументОснование КАК ДокументОснование
+ПОМЕСТИТЬ ВТ_Контейнеры
+ИЗ
+	Документ.вмс_ОперацияПоЯчейкам.Товары КАК вмс_ОперацияПоЯчейкамТовары
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТ_ТаблицаОпераций КАК ВТ_ТаблицаОпераций
+		ПО вмс_ОперацияПоЯчейкамТовары.Ссылка.ДокументОснование = ВТ_ТаблицаОпераций.ДокументОснование
+ГДЕ
+	вмс_ОперацияПоЯчейкамТовары.Контейнер &lt;&gt; ЗНАЧЕНИЕ(Справочник.вмс_Контейнеры.ПустаяСсылка)
+	И вмс_ОперацияПоЯчейкамТовары.Контейнер &lt;&gt; НЕОПРЕДЕЛЕНО
+
+СГРУППИРОВАТЬ ПО
+	вмс_ОперацияПоЯчейкамТовары.Ссылка.ДокументОснование
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	вмс_ОперацияПоЯчейкамТовары.Ссылка КАК Ссылка,
+	вмс_ОперацияПоЯчейкамТовары.Товар КАК Товар,
+	вмс_ОперацияПоЯчейкамТовары.Характеристика КАК Характеристика,
+	СУММА(вмс_ОперацияПоЯчейкамТовары.Количество) КАК Количество,
+	1 КАК КоличествоАртикулов,
+	СУММА(вмс_ОперацияПоЯчейкамТовары.Количество * &amp;ПолеВесТовара) КАК Вес,
+	СУММА(вмс_ОперацияПоЯчейкамТовары.Количество * &amp;ПолеОбъемТовара) КАК Объем
+ПОМЕСТИТЬ ВТ_Артикулы
+ИЗ
+	ВТ_ТаблицаОпераций КАК ВТ_ТаблицаОпераций
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.вмс_ОперацияПоЯчейкам.Товары КАК вмс_ОперацияПоЯчейкамТовары
+		ПО ВТ_ТаблицаОпераций.Ссылка = вмс_ОперацияПоЯчейкамТовары.Ссылка
+
+СГРУППИРОВАТЬ ПО
+	вмс_ОперацияПоЯчейкамТовары.Ссылка,
+	вмс_ОперацияПоЯчейкамТовары.Товар,
+	вмс_ОперацияПоЯчейкамТовары.Характеристика
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ТаблицаОпераций.ДатаОперации КАК ДатаОперации,
+	ВТ_ТаблицаОпераций.ВидОперации КАК ВидОперации
+ПОМЕСТИТЬ ВТ_ДатыОпераций
+ИЗ
+	ВТ_ТаблицаОпераций КАК ВТ_ТаблицаОпераций
+
+СГРУППИРОВАТЬ ПО
+	ВТ_ТаблицаОпераций.ДатаОперации,
+	ВТ_ТаблицаОпераций.ВидОперации
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ДатыОпераций.ДатаОперации КАК ДатаОперации,
+	ВТ_ДатыОпераций.ВидОперации КАК ВидОперации,
+	вмс_НормыKPI.Единица КАК Единица,
+	МАКСИМУМ(вмс_НормыKPI.Период) КАК Период
+ПОМЕСТИТЬ ВТ_НормыKPI1
+ИЗ
+	ВТ_ДатыОпераций КАК ВТ_ДатыОпераций
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.вмс_НормыKPI КАК вмс_НормыKPI
+		ПО ВТ_ДатыОпераций.ВидОперации = вмс_НормыKPI.Операция
+			И ВТ_ДатыОпераций.ДатаОперации &gt;= вмс_НормыKPI.Период
+
+СГРУППИРОВАТЬ ПО
+	ВТ_ДатыОпераций.ДатаОперации,
+	ВТ_ДатыОпераций.ВидОперации,
+	вмс_НормыKPI.Единица
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_НормыKPI1.ДатаОперации КАК ДатаОперации,
+	ВТ_НормыKPI1.ВидОперации КАК ВидОперации,
+	ВТ_НормыKPI1.Единица КАК Единица,
+	ВТ_НормыKPI1.Период КАК Период,
+	вмс_НормыKPI.КоличествоМинут КАК КоличествоМинут,
+	вмс_НормыKPI.КоличествоЕдиниц КАК КоличествоЕдиниц,
+	вмс_НормыKPI.Ответственный КАК Ответственный
+ПОМЕСТИТЬ ВТ_НормыKPI
+ИЗ
+	ВТ_НормыKPI1 КАК ВТ_НормыKPI1
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.вмс_НормыKPI КАК вмс_НормыKPI
+		ПО ВТ_НормыKPI1.ВидОперации = вмс_НормыKPI.Операция
+			И ВТ_НормыKPI1.Единица = вмс_НормыKPI.Единица
+			И ВТ_НормыKPI1.Период = вмс_НормыKPI.Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ТаблицаОпераций.ДокументОснование КАК ДокументОснование,
+	ВТ_ТаблицаОпераций.Ответственный КАК Ответственный,
+	ВТ_ТаблицаОпераций.Ссылка КАК Операция,
+	ВТ_ТаблицаОпераций.ДатаОперации КАК ДатаОперации,
+	ВТ_ТаблицаОпераций.ВидОперации КАК ВидОперации,
+	ВТ_ТаблицаОпераций.ВремяВСекундах КАК ВремяВСекундах,
+	ВТ_ТаблицаОпераций.ВремяВСекундах / 60 КАК ВремяВМинутах,
+	ЕСТЬNULL(ВТ_Контейнеры.КоличествоКонтейнеров, 0) КАК КоличествоКонтейнеров,
+	ВТ_Артикулы.Товар КАК Товар,
+	ВТ_Артикулы.Характеристика КАК Характеристика,
+	ВТ_Артикулы.Количество КАК КоличествоШтук,
+	ВТ_Артикулы.КоличествоАртикулов КАК КоличествоАртикулов,
+	ВТ_Артикулы.Вес КАК Вес,
+	ВТ_Артикулы.Объем КАК Объем,
+	ВЫБОР
+		КОГДА ВТ_НормыKPI_Штуки.КоличествоМинут ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ ВТ_Артикулы.Количество * ВТ_НормыKPI_Штуки.КоличествоМинут / ВТ_НормыKPI_Штуки.КоличествоЕдиниц
+	КОНЕЦ КАК ПлановоеВремяВМинутахЗаШтуки,
+	ВЫБОР
+		КОГДА ВТ_НормыKPI_Килограммы.КоличествоМинут ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ ВТ_Артикулы.Вес * ВТ_НормыKPI_Килограммы.КоличествоМинут / ВТ_НормыKPI_Килограммы.КоличествоЕдиниц
+	КОНЕЦ КАК ПлановоеВремяВМинутахЗаВес,
+	ВЫБОР
+		КОГДА ВТ_НормыKPI_Кубометры.КоличествоМинут ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ ВТ_Артикулы.Объем * ВТ_НормыKPI_Кубометры.КоличествоМинут / ВТ_НормыKPI_Кубометры.КоличествоЕдиниц
+	КОНЕЦ КАК ПлановоеВремяВМинутахЗаОбъем
+ПОМЕСТИТЬ ВТ1
+ИЗ
+	ВТ_ТаблицаОпераций КАК ВТ_ТаблицаОпераций
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_Контейнеры КАК ВТ_Контейнеры
+		ПО ВТ_ТаблицаОпераций.ДокументОснование = ВТ_Контейнеры.ДокументОснование
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_Артикулы КАК ВТ_Артикулы
+		ПО ВТ_ТаблицаОпераций.Ссылка = ВТ_Артикулы.Ссылка
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_НормыKPI КАК ВТ_НормыKPI_Штуки
+		ПО ВТ_ТаблицаОпераций.ВидОперации = ВТ_НормыKPI_Штуки.ВидОперации
+			И ВТ_ТаблицаОпераций.ДатаОперации = ВТ_НормыKPI_Штуки.ДатаОперации
+			И (ЗНАЧЕНИЕ(Перечисление.вмс_ЕдиницыИзмеренияKPI.Штуки) = ВТ_НормыKPI_Штуки.Единица)
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_НормыKPI КАК ВТ_НормыKPI_Килограммы
+		ПО ВТ_ТаблицаОпераций.ВидОперации = ВТ_НормыKPI_Килограммы.ВидОперации
+			И ВТ_ТаблицаОпераций.ДатаОперации = ВТ_НормыKPI_Килограммы.ДатаОперации
+			И (ЗНАЧЕНИЕ(Перечисление.вмс_ЕдиницыИзмеренияKPI.Килограммы) = ВТ_НормыKPI_Килограммы.Единица)
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_НормыKPI КАК ВТ_НормыKPI_Кубометры
+		ПО ВТ_ТаблицаОпераций.ВидОперации = ВТ_НормыKPI_Кубометры.ВидОперации
+			И ВТ_ТаблицаОпераций.ДатаОперации = ВТ_НормыKPI_Кубометры.ДатаОперации
+			И (ЗНАЧЕНИЕ(Перечисление.вмс_ЕдиницыИзмеренияKPI.Кубометры) = ВТ_НормыKPI_Кубометры.Единица)
+ГДЕ
+	ВТ_ТаблицаОпераций.ВидОперации &lt;&gt; ЗНАЧЕНИЕ(Справочник.вмс_Операции.ПустаяСсылка)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ1.ДокументОснование КАК ДокументОснование,
+	ВТ1.Ответственный КАК Ответственный,
+	ВТ1.Операция КАК Операция,
+	ВТ1.ВидОперации КАК ВидОперации,
+	ВТ1.ВремяВСекундах КАК ВремяВСекундах,
+	ВТ1.ВремяВМинутах КАК ВремяВМинутах,
+	ВТ1.КоличествоКонтейнеров КАК КоличествоКонтейнеров,
+	ВТ1.Товар КАК Товар,
+	ВТ1.Характеристика КАК Характеристика,
+	ВТ1.КоличествоШтук КАК КоличествоШтук,
+	ВТ1.КоличествоАртикулов КАК КоличествоАртикулов,
+	ВТ1.Вес КАК Вес,
+	ВТ1.Объем КАК Объем,
+	ВТ1.ПлановоеВремяВМинутахЗаШтуки + ВТ1.ПлановоеВремяВМинутахЗаВес + ВТ1.ПлановоеВремяВМинутахЗаОбъем КАК ПлановоеВремяВМинутах
+ИЗ
+	ВТ1 КАК ВТ1</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>СреднееВремяОперации</dataPath>
+		<expression>ВремяВМинутах</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Среднее время операции</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>СреднееВремяОператора</dataPath>
+		<expression>ВремяВМинутах</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Среднее время оператора</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>KPI</dataPath>
+		<expression>0</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>KPI</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<totalField>
+		<dataPath>СреднееВремяОперации</dataPath>
+		<expression>Сумма(СреднееВремяОперации)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СреднееВремяОператора</dataPath>
+		<expression>Сумма(СреднееВремяОператора)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоШтук</dataPath>
+		<expression>Сумма(КоличествоШтук)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоАртикулов</dataPath>
+		<expression>Сумма(КоличествоАртикулов)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ВремяВМинутах</dataPath>
+		<expression>Сумма(ВЫЧИСЛИТЬВЫРАЖЕНИЕСГРУППИРОВКОЙМАССИВ("МАКСИМУМ(ВремяВМинутах)", "Операция"))</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ВремяВМинутах</dataPath>
+		<expression>0</expression>
+		<group>Товар</group>
+	</totalField>
+	<totalField>
+		<dataPath>Вес</dataPath>
+		<expression>Сумма(Вес)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПлановоеВремяВМинутах</dataPath>
+		<expression>Сумма(ПлановоеВремяВМинутах)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПлановоеВремяВМинутах</dataPath>
+		<expression>0</expression>
+		<group>Товар</group>
+	</totalField>
+	<totalField>
+		<dataPath>KPI</dataPath>
+		<expression>ВЫБОР
+	КОГДА Сумма(ВЫЧИСЛИТЬВЫРАЖЕНИЕСГРУППИРОВКОЙМАССИВ("МАКСИМУМ(ВремяВМинутах)", "Операция"))=0 ТОГДА
+		0
+	ИНАЧЕ
+		100 * Сумма(ПлановоеВремяВМинутах) / Сумма(ВЫЧИСЛИТЬВЫРАЖЕНИЕСГРУППИРОВКОЙМАССИВ("МАКСИМУМ(ВремяВМинутах)", "Операция"))
+КОНЕЦ</expression>
+	</totalField>
+	<totalField>
+		<dataPath>KPI</dataPath>
+		<expression>0</expression>
+		<group>Товар</group>
+	</totalField>
+	<totalField>
+		<dataPath>Объем</dataPath>
+		<expression>Сумма(Объем)</expression>
+	</totalField>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ПолеВесТовара</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Поле вес товара</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">0</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ПолеОбъемТовара</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Поле объем товара</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">0</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Операторы</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>По операторам</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяВСекундах</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДокументОснование</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоКонтейнеров</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ответственный</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидОперации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоАртикулов</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоШтук</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Вес</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Объем</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяВМинутах</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПлановоеВремяВМинутах</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>KPI</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Ответственный</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>0d72e5e6-1c87-4044-bdac-efeaf1f3b536</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ДокументОснование</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>НачалоПериода</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>ca86b12a-9307-4d49-a40b-74a25f2dea57</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>КонецПериода</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>946aa61e-5aa6-4eae-a04f-606e1652c475</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>KPI</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=2; ЧФ=Ч%</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Ответственный</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ВидОперации</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ДокументОснование</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>Операция</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+							<dcsset:item xsi:type="dcsset:StructureItemGroup">
+								<dcsset:groupItems>
+									<dcsset:item xsi:type="dcsset:GroupItemField">
+										<dcsset:field>Товар</dcsset:field>
+										<dcsset:groupType>Items</dcsset:groupType>
+										<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+										<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+										<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+									</dcsset:item>
+								</dcsset:groupItems>
+								<dcsset:order>
+									<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+								</dcsset:order>
+								<dcsset:selection>
+									<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+								</dcsset:selection>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+	<settingsVariant>
+		<dcsset:name>Операции</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>По складским операциям</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяВСекундах</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяВМинутах</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДокументОснование</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЕдиницВЧас</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоШтук</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличестоАртикулов</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ответственный</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидОперации</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ВидОперации</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>c32b5353-6dda-43dc-b3b5-b90c860a2849</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Ответственный</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>7a1e1a47-7007-4670-b672-e154d513aa4e</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ВидОперации</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Ответственный</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ДокументОснование</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ВидОперации</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ВидОперации</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СреднееВремяОперации</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

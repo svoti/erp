@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9677686-f27a-4b89-bd59-9333f6be9b25">
+  <producedTypes>
+    <objectType typeId="8a392c4e-3f63-4b9b-8257-c1cbc4fad5b0" valueTypeId="403a2820-4dc9-4001-963b-42765deefb07"/>
+    <refType typeId="080af46e-55db-4e51-850c-78242b6a9fea" valueTypeId="77fe71b0-eb41-4812-a04c-e29776b55827"/>
+    <selectionType typeId="65c7581a-cb84-4dbd-8fd8-14016cb0336a" valueTypeId="612bab01-e38a-4b23-b95a-7df5fccc5e06"/>
+    <listType typeId="f9e688e0-91d0-42e4-a35b-5aa44086a9d8" valueTypeId="bda3b13a-2212-45eb-8371-c74d15de98ff"/>
+    <managerType typeId="8c26714f-2446-40a8-aaf5-358472aeb929" valueTypeId="431f9f34-a2ec-484d-addc-adb75b2a6162"/>
+  </producedTypes>
+  <name>вмс_ПравилаКонвертацииРеквизитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила конвертации реквизитов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.вмс_ПравилаКонвертацииРеквизитов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.вмс_ПравилаКонвертацииРеквизитов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.вмс_ПравилаКонвертацииРеквизитов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.вмс_ПравилаКонвертацииРеквизитов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="6b981f6e-e830-44ff-a00f-227e1ea66e64">
+    <name>ПравилоКонвертации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило конвертации</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="85d51fb7-7d54-4319-8d11-bc938de43dba">
+    <name>ИмяИсточникаВКонфигураторе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя источника в конфигураторе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="7ead3c4b-b472-4bcc-99c3-dd9ede7b2d38">
+    <producedTypes>
+      <objectType typeId="ee306ff6-1c04-4bca-a599-3fe01dacb280" valueTypeId="5445ef3a-9094-4570-8ba1-91d2295a3ec4"/>
+      <rowType typeId="143e97b9-0409-4b25-8eaa-505a0e434ed1" valueTypeId="0ee4b4e3-ff60-4e2b-ad2b-72014765e8c5"/>
+    </producedTypes>
+    <name>Алгоритмы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алгоритмы</value>
+    </synonym>
+    <attributes uuid="61e7e356-b08b-4f14-9201-ad8afd6523d5">
+      <name>Алгоритм</name>
+      <synonym>
+        <key>ru</key>
+        <value>Алгоритм</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.вмс_Алгоритмы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="ac6bca1a-694b-4070-8ebb-a858de48e489">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3400c701-ddec-45e3-865d-7859c0f3c123">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

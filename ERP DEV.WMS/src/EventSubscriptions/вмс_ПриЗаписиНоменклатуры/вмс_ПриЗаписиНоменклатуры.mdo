@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f00385bd-80ab-4ce1-924a-eb794dec5390">
+  <name>вмс_ПриЗаписиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>При записи номенклатуры</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Номенклатура</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.вмс_РаботаСТриграммамиВызовСервера.ОбработатьЗаписьНоменклатуры</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdda24f4-3ec3-451d-87e2-d21aa4f9fff2">
+  <name>ПредопределенныеЭлементыОсновныхОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные объекты</value>
+  </synonym>
+  <comment>//3.2.4 - Изменено поле поиска на штрихкод, правила поиска объектов вынесены в отдельные правила</comment>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

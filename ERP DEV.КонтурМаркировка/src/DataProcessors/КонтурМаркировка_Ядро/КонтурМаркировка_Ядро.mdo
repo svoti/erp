@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4831084c-ead9-43bd-9de0-8a4d1dc985c3">
+  <producedTypes>
+    <objectType typeId="a9b7a9e1-21e8-40a3-b72a-25a0afdd79b6" valueTypeId="6c3f9b62-116c-4a50-94cf-5401d9452787"/>
+    <managerType typeId="1def352d-fd87-4862-a19b-c9a47f534059" valueTypeId="23da9d2d-c53c-4d2b-b031-f023f4f174a7"/>
+  </producedTypes>
+  <name>КонтурМаркировка_Ядро</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ядро модуля (Контур.Маркировка)</value>
+  </synonym>
+  <comment>Ядро.epf</comment>
+  <templates uuid="f0cc05bb-a710-4d96-b8c3-8b02deb2f34b">
+    <name>ФорматыКодовМаркировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форматы кодов маркировки</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

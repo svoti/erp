@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d311ccb-6150-40fa-bfd8-cbb2238d11ee">
+  <producedTypes>
+    <selectionType typeId="88244dea-722e-4017-beb3-1f5042d7b335" valueTypeId="5e2069d0-407f-4287-9d53-5d43a2fbbc13"/>
+    <listType typeId="ee757b37-b9da-4dd0-b0bc-1f9d1c1f10b0" valueTypeId="81b57529-4cce-4a7c-b977-eec1c6a555f7"/>
+    <managerType typeId="934bf36c-1c34-4cb9-a787-470946e44ee9" valueTypeId="2425b4e1-659c-4dca-8c38-101438a846f2"/>
+    <recordSetType typeId="2904fffb-0378-436a-b7bb-978b8a72935d" valueTypeId="1bc3ace8-b07a-49fc-bc6f-24575918c422"/>
+    <recordKeyType typeId="22bfe85f-d3d0-47e3-ae87-3435f5efcf64" valueTypeId="fa799ba8-b113-418a-b719-0e9b227c00e9"/>
+    <recordType typeId="270fb62a-2fd2-4132-8c42-a7586b8a8a51" valueTypeId="3c183759-8c9a-4160-8ca5-dd983803a23e"/>
+    <recordManagerType typeId="67150de0-7c9d-4734-bf94-411242c41d03" valueTypeId="02b843e6-0427-4686-b60c-b8200f9c1aa6"/>
+  </producedTypes>
+  <name>вмс_МинОстаткиПоЗонамБыстрогоДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Минимальные остатки по группам ячеек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="feba1872-b4bf-401b-b69a-34149a08b08b">
+    <name>МинимальныйОстаток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальный остаток</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a369f011-6e1a-447a-b437-40779f99657a">
+    <name>ЗонаДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зона доступа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.вмс_ГруппыЯчеек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9cfaed26-d881-4f08-aca9-cf679238b0e4">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="514a006d-4331-42f5-acf7-66f5b181fa5e">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <type>
+      <types>DefinedType.вмс_ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Номенклатура</name>
+      <changeMode>DontChange</changeMode>
+      <field>InformationRegister.вмс_МинОстаткиПоЗонамБыстрогоДоступа.Dimension.Товар</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

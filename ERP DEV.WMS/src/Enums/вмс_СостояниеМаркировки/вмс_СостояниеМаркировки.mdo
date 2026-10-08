@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="316b08a9-0cb7-4eb1-a04d-d072ed126ec4">
+  <producedTypes>
+    <refType typeId="372fc742-9ce9-40ab-8224-4e451b87b97f" valueTypeId="c2cf2056-e7bf-44a3-99e6-dce222f54c75"/>
+    <listType typeId="000a14df-e2bf-4977-80f4-1572ac91814e" valueTypeId="03c52f80-868e-4a2d-a578-4b1e11a09789"/>
+    <managerType typeId="c75940d0-0d5f-4c5d-a9d0-ee3f72e65cef" valueTypeId="77999d5d-421e-419b-8789-77961989fef8"/>
+  </producedTypes>
+  <name>вмс_СостояниеМаркировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние маркировки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cff2930c-4cdd-42ac-8448-124a68c722df">
+    <name>НеОбработана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не обработана</value>
+    </synonym>
+    <comment>План по маркировке</comment>
+  </enumValues>
+  <enumValues uuid="9e14f981-8fa7-4e63-aa05-01a649ede7e3">
+    <name>Обработана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработана</value>
+    </synonym>
+    <comment>Факт по маркировке</comment>
+  </enumValues>
+  <enumValues uuid="70164960-be20-4424-9cdf-0ab52baedc30">
+    <name>Отправлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлена</value>
+    </synonym>
+    <comment>Выгружено в контур</comment>
+  </enumValues>
+</mdclass:Enum>

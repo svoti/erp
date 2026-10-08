@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06931e88-c271-499a-88b5-5d040f1799d4">
+  <name>КонтурМаркировка_СтрелкаКруговая</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стрелка круговая (Контур.Маркировка)</value>
+  </synonym>
+</mdclass:CommonPicture>

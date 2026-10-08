@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21fa26e1-3735-4636-a3aa-1e6c0ae42411">
+  <producedTypes>
+    <selectionType typeId="e6acc02c-8ab9-4942-9db9-416b8e05412e" valueTypeId="9c3d48b5-35c4-484c-99ef-9cdfca3fafff"/>
+    <listType typeId="cc5f65dc-07f4-4dec-bc3a-081f507c2c88" valueTypeId="4b4d4eca-aafb-4761-a157-37191dea5094"/>
+    <managerType typeId="cdb24cc0-07f3-47b6-9a17-e5943a343fcd" valueTypeId="29a4b1b5-0f7f-4c1a-9b8a-a5babe7fa823"/>
+    <recordSetType typeId="3668131d-fdaa-416e-bc22-2cefbf0c8409" valueTypeId="d89e486c-3714-45b1-8bf6-581eace0fc76"/>
+    <recordKeyType typeId="48efcb9d-89fc-4fc4-9b94-a8684ae7167a" valueTypeId="fd4f0bdb-88db-4203-8420-f0014213d501"/>
+    <recordType typeId="4c69b338-eb0b-4d51-bd1d-e4ddf0805c53" valueTypeId="ac0099eb-33d0-4636-b73b-caeed50bb0e4"/>
+    <recordManagerType typeId="1b97ef53-c652-4f1b-871b-5782ffed713c" valueTypeId="f6689156-8a53-4ac5-a7db-56d75bd94865"/>
+  </producedTypes>
+  <name>вмс_СоответствиеОбъектамУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие объектам учета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0a7a08e0-cb57-4c84-a7b2-915c20d72024">
+    <name>ЗначениеУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение учета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СерииНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b0ca70d1-135a-40e8-a6d1-4a501ca25ea9">
+    <name>ЗначениеВМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение ВМС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.вмс_СерииНоменклатуры</types>
+      <types>CatalogRef.вмс_ПартииНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

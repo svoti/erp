@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a73fec2-8e9a-413a-9f8b-2eec556893a6">
+  <producedTypes>
+    <objectType typeId="cc850d7a-59aa-481a-a7ea-a29d3d86ce0c" valueTypeId="93652260-8c24-4e9b-9288-457bf828485d"/>
+    <managerType typeId="2df11f85-765a-4d01-9cce-f4ddcfb713f2" valueTypeId="9c07f3be-1111-4041-a403-18a965f4ab21"/>
+  </producedTypes>
+  <name>вмс_ABCАнализ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты ABC Анализа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.вмс_ABCАнализ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="55162106-16a8-41df-a872-a6ab8aa10518">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

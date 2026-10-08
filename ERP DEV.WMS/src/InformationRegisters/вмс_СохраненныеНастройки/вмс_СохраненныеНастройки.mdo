@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f173c52d-f036-4a19-8a0b-774464e0e90c">
+  <producedTypes>
+    <selectionType typeId="f1fb79ed-fbdb-48c8-bd1e-97e39c9f7a0f" valueTypeId="9f7c126c-082b-4092-ba46-33e3c49dbc45"/>
+    <listType typeId="77cd92a0-de30-4a8c-ab0d-adddd8763fca" valueTypeId="89194b16-b710-4f04-a71e-a7514fdb4623"/>
+    <managerType typeId="3c244d61-c443-40d0-961e-58dce6a82c56" valueTypeId="b47062fe-9e82-4df2-be04-949252681e5f"/>
+    <recordSetType typeId="a7bd34be-f69e-4eb7-a9a7-7882a6eb439e" valueTypeId="4796fe1c-5a97-4879-bd77-5f4b8b6d9095"/>
+    <recordKeyType typeId="bf5501f6-472e-4ff2-a491-e67990cdf177" valueTypeId="f205dbb9-e455-41ea-820b-065765798895"/>
+    <recordType typeId="502141b1-4c85-429a-a90c-6917f2a13b7f" valueTypeId="99d92d3f-95fd-465f-ad12-2e4a21af5104"/>
+    <recordManagerType typeId="879df028-47f1-47fe-a03c-a16629d05c79" valueTypeId="a515483a-9f94-4f3c-9e11-5fcce91821c8"/>
+  </producedTypes>
+  <name>вмс_СохраненныеНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>WMS: Сохраненные настройки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="751ef34e-4d6b-4660-bc40-6dbf3dc5870c">
+    <name>ХранилищеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище настройки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4c5a7bf9-05b6-45e4-be87-ee3fac7d72ef">
+    <name>ИмяОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d5b8d456-6284-4a90-87c7-e1ab382f62e4">
+    <name>ИмяНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя настройки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="eef9b4f1-2b88-43c5-8921-f4672880beeb">
+    <name>ФормаВыбораНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

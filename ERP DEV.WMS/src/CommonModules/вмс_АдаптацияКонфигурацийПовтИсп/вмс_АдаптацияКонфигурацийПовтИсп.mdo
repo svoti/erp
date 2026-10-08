@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7aad533b-13bc-4ff9-a947-f314a2fefe8c">
+  <name>вмс_АдаптацияКонфигурацийПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>WMS адаптация конфигураций повт исп</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

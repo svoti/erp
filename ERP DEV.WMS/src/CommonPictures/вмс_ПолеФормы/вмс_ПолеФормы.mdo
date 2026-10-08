@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c31b872-36ff-4565-9bbf-1b3ca31bcb32">
+  <name>вмс_ПолеФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вмс поле формы</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60660ec6-3fed-41ad-a4ef-eb3150bae712">
+  <producedTypes>
+    <refType typeId="9098c3eb-34dc-4b94-9236-8c66d711b82e" valueTypeId="4433c08a-cf10-431b-bd01-8edab979f574"/>
+    <listType typeId="8b03fae7-9282-4d5e-828c-595432a6499c" valueTypeId="95d696c9-f82e-496a-a9a0-9512efc28f1f"/>
+    <managerType typeId="81068302-062a-4cc3-abeb-e56b007a90ae" valueTypeId="650ebf21-2c4d-46b9-b0cc-e25e0808a0d2"/>
+  </producedTypes>
+  <name>вмс_КлассификаторНастроекОператора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификатор настроек оператора</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0ec24b18-77e1-4f72-82fd-455b312418de">
+    <name>Операции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be545447-5eb3-46b3-bbba-39c309e71b6a">
+    <name>Склады</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склады</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

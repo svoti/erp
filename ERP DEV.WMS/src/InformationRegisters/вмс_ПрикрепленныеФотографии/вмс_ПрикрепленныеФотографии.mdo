@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29c9c639-fa47-4b8e-8846-85f3dc67d366">
+  <producedTypes>
+    <selectionType typeId="40078417-dbac-4e16-8760-a3bc67a96ed9" valueTypeId="681ac29e-e230-4736-9971-a99fa143db36"/>
+    <listType typeId="5baab86c-5759-4f35-836b-3650a6a045bb" valueTypeId="4086d27b-822a-4d09-aa44-75c4a4f5c891"/>
+    <managerType typeId="66b6d200-5a1e-49b7-961c-b88fab796ceb" valueTypeId="e2c97ca2-2430-489d-9d6d-bfecc62b1270"/>
+    <recordSetType typeId="50a4d922-ea89-437a-a886-798a68ff7836" valueTypeId="28a5169c-5c0d-4f9a-93f0-08a6fc5954f4"/>
+    <recordKeyType typeId="6d09b876-bd0e-463b-a59b-87e6c0051614" valueTypeId="45158c20-1ed7-494e-8df5-ee895c1720f9"/>
+    <recordType typeId="42d8b07e-1e8d-431d-ba81-5b6564d4fc31" valueTypeId="e0dc4a82-fdf0-47c3-9aeb-21de09a0149c"/>
+    <recordManagerType typeId="b1afd9cd-3f52-47ed-920a-e259aa63b708" valueTypeId="2649dc2c-cad5-4159-9ca7-68f6cbc2b0ed"/>
+  </producedTypes>
+  <name>вмс_ПрикрепленныеФотографии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фотографии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.вмс_ПрикрепленныеФотографии.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.вмс_ПрикрепленныеФотографии.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="14b977e8-2f2e-438f-904b-cf825b7532bd">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="958ff3d2-c26a-47be-a7ec-cfe6787e129d">
+    <name>ТипОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="b122f9ee-b667-4aa1-9a4c-529809b23448">
+    <name>УникальныйИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="20f35179-e866-451b-9ec5-dd9fddacd3d3">
+    <name>НомерЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер записи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="650f8cc2-b6ca-4da4-9f77-cec47d2a45aa">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <type>
+      <types>Characteristic.вмс_СоответствиеМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6eb17b80-a087-434f-a6da-a82c2cf37f93">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6b6ffbd9-a08b-48f8-9c2e-951ae7ab7fe9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

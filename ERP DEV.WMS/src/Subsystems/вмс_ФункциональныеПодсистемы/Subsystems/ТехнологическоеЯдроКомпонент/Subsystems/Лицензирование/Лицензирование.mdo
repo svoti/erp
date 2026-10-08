@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="875ccce3-1c2d-4395-8d91-bfefb2a2f6d3">
+  <name>Лицензирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лицензирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.вмс_Лицензии</content>
+  <parentSubsystem>Subsystem.вмс_ФункциональныеПодсистемы.Subsystem.ТехнологическоеЯдроКомпонент</parentSubsystem>
+</mdclass:Subsystem>

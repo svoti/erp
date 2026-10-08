@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1324786c-ba0c-4153-b8d1-33181cab6c7f" extendedConfigurationObject="07b3c407-9a3a-4f94-b798-226c96d66840">
+  <producedTypes>
+    <objectType typeId="9dbe3af2-8ed2-4fb1-b336-aed81155f8f2" valueTypeId="97bc2f50-e28b-4676-8f04-3468dd124d15"/>
+    <refType typeId="07763444-53da-4e62-ab81-10bee8cd14a1" valueTypeId="8f89cc3e-c605-4c06-8366-c308a4f5d91e"/>
+    <selectionType typeId="17881842-c92a-4984-824c-c8ce7cc9a46d" valueTypeId="18f395c7-d77e-4b00-9aaf-660ef48cf2a5"/>
+    <listType typeId="005bff7d-9530-4233-9c6e-8d79e2ec8864" valueTypeId="5d430535-4085-488f-94c2-a78777219627"/>
+    <managerType typeId="48c64b7f-ea3e-40ac-b3ee-8b29cd67a544" valueTypeId="82c0af6d-69f1-4294-a418-7a075236f362"/>
+  </producedTypes>
+  <name>Склады</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <hierarchical>Checked</hierarchical>
+    <hierarchyType>Checked</hierarchyType>
+    <defaultFolderForm>Extended</defaultFolderForm>
+    <defaultFolderChoiceForm>Extended</defaultFolderChoiceForm>
+    <auxiliaryFolderForm>Extended</auxiliaryFolderForm>
+  </extension>
+  <hierarchical>true</hierarchical>
+</mdclass:Catalog>

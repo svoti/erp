@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb545ca7-f11c-46ac-92f2-23df17d57d71">
+  <producedTypes>
+    <selectionType typeId="a182d12e-28b5-4cdf-b934-81f4389b7567" valueTypeId="61d1d4f0-c57e-4424-a85f-b09ee27a2b24"/>
+    <listType typeId="73306078-03c2-445a-ba76-c1f0ad43b184" valueTypeId="7f9cace1-bc23-455c-9b47-30e265acc131"/>
+    <managerType typeId="1a2a8ccd-1b19-4314-8966-d4bb7eb5d427" valueTypeId="87410c48-4b58-4e19-a5c7-6c1d4b1aab44"/>
+    <recordSetType typeId="99735cb5-d5ed-4f4c-8334-19fad33c95c4" valueTypeId="1fadc375-88c0-468a-9eb4-200fbdf87c42"/>
+    <recordKeyType typeId="ef900ecc-63e2-4dab-af9b-22f85d33c864" valueTypeId="442bee96-669b-4703-afbd-ae5147ed738e"/>
+    <recordType typeId="10e35f5d-ae44-43cb-8de9-a263d6171b43" valueTypeId="3cbe4c25-b25c-4069-896d-45d70d470ef4"/>
+    <recordManagerType typeId="9ab53b68-0100-4fa2-b2b0-ade02412f69e" valueTypeId="6a4c93f6-85c1-4a6e-ac43-13d994af70a4"/>
+  </producedTypes>
+  <name>КоэффициентыНерабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коэффициенты нерабочего времени по клиентам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Коэффициент нерабочего времени клиента</value>
+  </recordPresentation>
+  <resources uuid="b99d9c84-5d56-4179-be46-1fa84001118b">
+    <name>Коэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ffe004bf-fe54-4a19-a48c-5beb37750a60">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b1185d8d-907b-4081-a16d-d810a7043e0a">
+    <name>ГруппаУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа услуг</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.вмс_УслугиОтветственногоХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

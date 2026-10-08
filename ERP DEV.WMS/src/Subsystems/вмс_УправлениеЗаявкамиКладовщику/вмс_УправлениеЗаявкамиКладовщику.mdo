@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0f09d52-59e7-4bec-9c49-7d2e3dbed7e2">
+  <name>вмс_УправлениеЗаявкамиКладовщику</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление заявками кладовщику</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>EventSubscription.вмс_ПриЗаписиДокумента</content>
+  <content>Catalog.вмс_ПравилаЗаполненияЗадачиКладовщику</content>
+  <content>Document.вмс_ЗаданиеКладовщику</content>
+  <content>Enum.вмс_СостоянияЗаявокКладовщику</content>
+  <content>AccumulationRegister.вмс_ОперацияПоЯчейкам</content>
+  <content>Document.вмс_ОперацияПоЯчейкам</content>
+  <content>DataProcessor.вмс_РабочееМестоОтгрузкиСоСклада</content>
+</mdclass:Subsystem>

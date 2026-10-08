@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22fd6aec-a390-4064-8986-a48115e5ee44">
+  <producedTypes>
+    <selectionType typeId="40c6d63d-0bf2-4e11-a5a0-e967ce1e13df" valueTypeId="fec4f947-6cb6-4186-a1d5-1cfd81803757"/>
+    <listType typeId="327651dc-d887-4a87-b7ea-79497350214a" valueTypeId="7dacb035-0de1-40a7-b99c-947a4209089f"/>
+    <managerType typeId="d0851060-6a69-4f15-8498-523415b61db1" valueTypeId="d0e8b397-efd8-4a86-93c2-2c2ff89d8e14"/>
+    <recordSetType typeId="f0942607-3bdd-4e2a-a60e-985a77e2bf56" valueTypeId="950d6164-771a-4c10-90d3-c4d0eed58e00"/>
+    <recordKeyType typeId="e702eef1-0adf-4890-850d-9ce5355a03ec" valueTypeId="98ac433a-b3a4-4887-a008-0ac44c753149"/>
+    <recordType typeId="3163efa6-d85b-4a97-bb24-6d6fc12cadfd" valueTypeId="d95f53fb-9e0d-433e-bb5e-c508eb542add"/>
+    <recordManagerType typeId="63b6e3db-7049-40e9-b5b8-d01082838d55" valueTypeId="c9ad891b-2b5b-4a5f-8558-ba5f266368c6"/>
+  </producedTypes>
+  <name>вмс_СоединениеОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соединение объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="17f9bc6c-1c82-4aa6-b5fe-931a9a76b7fe">
+    <name>ОсновнойРесурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной ресурс</value>
+    </synonym>
+    <type>
+      <types>Characteristic.вмс_СоответствиеМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7697e92b-c385-492f-849d-67f65ab13282">
+    <name>ОбъектИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект источник</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <types>DocumentRef</types>
+      <types>EnumRef</types>
+      <types>CatalogRef</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="66924970-0b54-40b9-b050-f5489cd540a1">
+    <name>ОбъектПриемник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект приемник</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <types>DocumentRef</types>
+      <types>EnumRef</types>
+      <types>CatalogRef</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="74bb4b25-7785-47bf-ab80-f2b2d849fab6">
+    <name>Схема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.вмс_СхемыСоединенияОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="acda8748-fde0-4111-a9c7-2b4e57a4651f">
+    <name>ДополнительноеИзмерение1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительное измерение1</value>
+    </synonym>
+    <type>
+      <types>Characteristic.вмс_СоответствиеМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c1031174-4580-463a-94ac-8776a5f0d9f3">
+    <name>ДополнительноеИзмерение2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительное измерение2</value>
+    </synonym>
+    <type>
+      <types>Characteristic.вмс_СоответствиеМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1a2a2492-b47c-468d-a56e-02e2f5966b30">
+    <name>ДополнительноеИзмерение3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительное измерение3</value>
+    </synonym>
+    <type>
+      <types>Characteristic.вмс_СоответствиеМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

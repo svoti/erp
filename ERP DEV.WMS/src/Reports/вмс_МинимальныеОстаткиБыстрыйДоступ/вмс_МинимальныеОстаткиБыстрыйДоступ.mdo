@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10fd04e5-5c61-4c6c-a2df-6fb927727415">
+  <producedTypes>
+    <objectType typeId="3aaedae2-7a55-42a6-b5c1-382279d12eac" valueTypeId="7e6b3b6f-8910-4a6f-9de1-005aea8827ab"/>
+    <managerType typeId="2a5dccfc-2756-496d-b1cc-255582acbd9a" valueTypeId="a4750b5c-8a7f-406d-9bd6-e3879c57e86f"/>
+  </producedTypes>
+  <name>вмс_МинимальныеОстаткиБыстрыйДоступ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Минимальные остатки в быстром доступе</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.вмс_МинимальныеОстаткиБыстрыйДоступ.Template.ОсновнаяСхемаКомпоновкиДанных1</mainDataCompositionSchema>
+  <templates uuid="5ec3c95e-a4ff-4622-adbb-029555c2501a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="86a042ea-75e6-47ee-8db4-b6a9d9ecca66">
+    <name>ОсновнаяСхемаКомпоновкиДанных1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных1</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

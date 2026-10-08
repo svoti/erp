@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d8d55e5-c485-454c-89c2-812d09dd9a78">
+  <name>ДополнительныеРеквизиты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные реквизиты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.вмс_УправлениеСвойствамиВызовСервера</content>
+  <content>CommonModule.вмс_УправлениеСвойствамиВызовСервераПовтИсп</content>
+  <content>CommonModule.вмс_УправлениеСвойствамиКлиент</content>
+  <content>CommonModule.вмс_УправлениеСвойствамиКлиентСервер</content>
+  <content>CommonModule.вмс_УправлениеСвойствамиСервер</content>
+  <content>Catalog.вмс_ЗначенияСвойствОбъектов</content>
+  <content>Catalog.вмс_НаборыДополнительныхРеквизитов</content>
+  <content>ChartOfCharacteristicTypes.вмс_ДополнительныеРеквизиты</content>
+  <content>ChartOfCharacteristicTypes.вмс_СвойстваОпераций</content>
+  <content>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</content>
+  <parentSubsystem>Subsystem.вмс_ФункциональныеПодсистемы.Subsystem.ТехнологическоеЯдроКомпонент.Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

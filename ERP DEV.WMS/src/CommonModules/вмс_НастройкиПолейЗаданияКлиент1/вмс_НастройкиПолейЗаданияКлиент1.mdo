@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de560dad-434f-4a9e-913d-935769421a10">
+  <name>вмс_НастройкиПолейЗаданияКлиент1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки полей задания (клиент)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

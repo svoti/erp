@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60121950-424a-413a-9ab9-189ab361c391">
+  <name>Комплекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комплекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Компонента отвечает за работу с комплектами товаров в компоненте Адресного Хранения
+</value>
+  </explanation>
+  <content>CommonModule.вмс_КомплектованиеТоваровСервер</content>
+  <content>Document.вмс_ПотребностьКомплектов</content>
+  <content>Document.вмс_ПроверкаКомплектности</content>
+  <content>InformationRegister.вмс_СоставыКомплектов</content>
+  <content>AccumulationRegister.вмс_ПотребностьКомплектов</content>
+  <content>AccumulationRegister.вмс_ПотребностьКомплектующих</content>
+  <parentSubsystem>Subsystem.вмс_ФункциональныеПодсистемы.Subsystem.СистемаУправленияСкладомКомпонент</parentSubsystem>
+</mdclass:Subsystem>

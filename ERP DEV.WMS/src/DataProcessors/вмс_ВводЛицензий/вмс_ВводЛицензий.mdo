@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dac53e55-c9c0-40f9-9519-943e68b3d913">
+  <producedTypes>
+    <objectType typeId="c6098ced-5bd1-4eee-9745-416428821215" valueTypeId="82544f05-84c6-4949-90c0-79193988bd4e"/>
+    <managerType typeId="4b0cc6ab-ad02-47bf-ab6b-154978102222" valueTypeId="b20e1f73-f633-45c6-b807-c375ab0be945"/>
+  </producedTypes>
+  <name>вмс_ВводЛицензий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лицензирование модулей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.вмс_ВводЛицензий.Form.Форма</defaultForm>
+  <forms uuid="6ded784c-9a1e-4a37-9584-765561f6d3ed">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b4ea3292-23bb-4c3e-ace3-4db318c464aa">
+    <name>Лого</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лого</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

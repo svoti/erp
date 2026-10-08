@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2706e0ff-9aa4-43a2-9fb8-43c61ec2b6bb">
+  <producedTypes>
+    <selectionType typeId="f056bc27-ba18-450a-95f9-d2dfe90e893e" valueTypeId="bfe6a529-9f8a-4016-a6a3-a9aaf97c3beb"/>
+    <listType typeId="7e1da456-f5fe-4f1a-a982-f826a2f462d2" valueTypeId="2d37965e-4784-4a87-89db-a703179de8a2"/>
+    <managerType typeId="36a50814-b7db-4118-bcc2-364892d06676" valueTypeId="03d64c3e-32ab-45d0-935c-7674a162af74"/>
+    <recordSetType typeId="6de01f7a-d253-422e-a979-60c050a0236d" valueTypeId="114411bb-fc1d-4c3d-8c93-8270f6a21c0a"/>
+    <recordKeyType typeId="67654618-d815-40b7-a2d6-ffd3fafc84d7" valueTypeId="140d0d00-9f20-475a-8e30-66f00bd7799e"/>
+    <recordType typeId="df44afb2-0b20-45ae-a261-a06ac40d21d5" valueTypeId="0f4d6b41-0062-4917-8350-4069d0e8e0bf"/>
+    <recordManagerType typeId="9461dd66-e251-4bea-884c-5a9216c682d8" valueTypeId="48a0bc17-5b0a-43ca-b9be-b62c97d18f98"/>
+  </producedTypes>
+  <name>КонтурМаркировка_СтатусыДокументовУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы документов учета (Контур.Маркировка)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="63348f27-8363-4654-98ca-b92e79e57768">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <attributes uuid="abf38e17-eb42-43a6-9cd3-e9b414999b22">
+    <name>ДатаСтатуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения статуса</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d39fb205-8127-4a6c-b713-5820b1f6518c">
+    <name>ДопИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп информация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <dimensions uuid="d10b6115-bd12-4fd1-9a4a-cc9820410588">
+    <name>ТипСтатуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип статуса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </dimensions>
+  <dimensions uuid="6b99cf97-df4c-4f7a-af51-a9f82f479a9d">
+    <name>ДокументУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ учета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтурМаркировка_ДокументыУчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

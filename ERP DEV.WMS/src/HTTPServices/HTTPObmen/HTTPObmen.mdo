@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6213ccca-3ccf-4e9d-9495-2ff91242ee59">
+  <name>HTTPObmen</name>
+  <synonym>
+    <key>ru</key>
+    <value>HTTP Обмен</value>
+  </synonym>
+  <rootURL>HTTPObmen</rootURL>
+  <reuseSessions>Use</reuseSessions>
+  <sessionMaxAge>60</sessionMaxAge>
+  <urlTemplates uuid="dd58b60f-e053-4549-8a28-3abe063cad2e">
+    <name>ВыполнитьМетод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить метод</value>
+    </synonym>
+    <template>/ВыполнитьМетод</template>
+    <methods uuid="6e9f64a7-96c0-438e-9715-6c27c650bc1a">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ВыполнитьМетодPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="ce093b71-efcb-4a7f-9fa3-da0020d2672f">
+    <name>Test</name>
+    <synonym>
+      <key>ru</key>
+      <value>Test</value>
+    </synonym>
+    <template>/Test</template>
+    <methods uuid="5caa2fa5-c54a-4783-9e06-bf565ba0a927">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>TestGet</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

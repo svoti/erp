@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee0c7c58-26fc-4ae6-9445-cacf030222e0">
+  <producedTypes>
+    <objectType typeId="a47aa6dd-5c76-4706-b3b0-6c2ec95a86dd" valueTypeId="58f32a8f-8d4f-452d-89ff-74b0811d01c5"/>
+    <refType typeId="f7456dd0-316c-4c28-b912-5e6b86ad9385" valueTypeId="88b5d24d-65cd-4086-8db7-ca1fcbb2b3d6"/>
+    <selectionType typeId="7c429e4f-2481-4a83-9d14-5fcec3f9910f" valueTypeId="5470dba9-077d-43af-ad82-a67abfc2e688"/>
+    <listType typeId="ae783296-08ea-41dc-9791-33e9594d5c4d" valueTypeId="d15bd471-2d03-4afa-9b77-e56406da2a01"/>
+    <managerType typeId="9325a347-a350-4c3d-9f79-7ca3b46a070e" valueTypeId="45e8853b-dd89-4e14-8fa7-b07be9daebce"/>
+  </producedTypes>
+  <name>вмс_НоменклатураПоклажедателя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура поклажедателя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.вмс_НоменклатураПоклажедателя.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.вмс_НоменклатураПоклажедателя.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.вмс_НоменклатураПоклажедателя.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="7e2c82fe-7712-4ff6-9d23-feab619890b6">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="46c7af21-ce15-4bb5-b97e-46104320be6c">
+    <name>НоменклатураУчетнойСистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура учетной системы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5dc841e6-ef3a-4be7-9d92-1e1232a987a3">
+    <name>Артикул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c4afd37e-c120-46ed-9cde-55894e68c8ef">
+    <name>ФормаНеобработаннаяНоменклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма необработанная номенклатура</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="320c6eaa-452c-43fe-98e0-eab9db40fa03">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79b486a6-131f-4b5a-97d6-8f51e4aff208">
+  <name>ЛокализацияПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Локализация приложения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.вмс_АдаптацияКонфигураций</content>
+  <content>CommonModule.вмс_Локализация</content>
+  <content>CommonModule.вмс_ЛокализацияВызовСервера</content>
+  <content>CommonModule.общПереопределениеФормСервер</content>
+  <content>CommonCommand.ПечатьТоварныхЭтикеток</content>
+  <content>CommonModule.вмс_АдаптацияКонфигурацийУТ10</content>
+  <content>CommonModule.вмс_АдаптацияКонфигурацийБП</content>
+  <content>CommonModule.вмс_АдаптацияКонфигурацийУТ</content>
+  <content>CommonModule.вмс_АдаптацияКонфигурацийУНФ</content>
+  <parentSubsystem>Subsystem.вмс_ФункциональныеПодсистемы.Subsystem.ТехнологическоеЯдроКомпонент</parentSubsystem>
+</mdclass:Subsystem>

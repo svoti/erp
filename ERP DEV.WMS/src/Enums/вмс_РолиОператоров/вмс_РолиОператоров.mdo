@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25f79e74-4511-4fc2-91a0-480b96e20812">
+  <producedTypes>
+    <refType typeId="26d5f931-a1da-4993-b2fd-c8fb8eb4daea" valueTypeId="3259f98b-bdf1-4cb2-946e-0ecc201ec855"/>
+    <listType typeId="81cf565a-cf69-458e-90cd-b795bfe53b69" valueTypeId="a39b4809-1e0d-4c9a-9eef-b07d46b39929"/>
+    <managerType typeId="53fe328b-3988-4873-b49b-e206c777d1ac" valueTypeId="55013f41-d2c9-4f3d-9dbd-054d3ad08484"/>
+  </producedTypes>
+  <name>вмс_РолиОператоров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли операторов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f1100ae6-51a2-4679-b84f-19059180dfa3">
+    <name>СтаршийКладовщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старший кладовщик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a6981ca6-422c-4a20-8ae9-316c1abc131b">
+    <name>НачальникСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальник склада</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

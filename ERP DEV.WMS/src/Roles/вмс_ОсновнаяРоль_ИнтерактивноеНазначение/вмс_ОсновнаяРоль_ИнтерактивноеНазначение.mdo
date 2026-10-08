@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="626326c4-5ee0-4bc3-927f-03dd22b6a3b5">
+  <name>вмс_ОсновнаяРоль_ИнтерактивноеНазначение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основная роль - Интерактивное назначение</value>
+  </synonym>
+  <comment>Для назначения через профили групп доступа. Копия роли вмс_ОсновнаяРоль_ПолныеПрава</comment>
+</mdclass:Role>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="784cb80e-0c3d-4ed9-9db8-e83727867261">
+  <name>вмс_ПриЗаписиДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>При записи документа_ВМС</value>
+  </synonym>
+  <comment>Техническая подписка, для реализации генераций заявок кладовщику</comment>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.вмс_Сервер.ОбработатьЗаписьДокументаРаспоряжения</handler>
+</mdclass:EventSubscription>

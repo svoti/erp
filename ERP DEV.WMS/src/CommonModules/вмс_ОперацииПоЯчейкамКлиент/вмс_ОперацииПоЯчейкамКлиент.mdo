@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31e02000-d933-437b-ba1b-fe8ccbd4590f">
+  <name>вмс_ОперацииПоЯчейкамКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>WMS операции по ячейкам клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

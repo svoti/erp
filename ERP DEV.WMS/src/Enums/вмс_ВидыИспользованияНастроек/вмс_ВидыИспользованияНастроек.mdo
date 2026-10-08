@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b06bbe82-482c-434f-91d0-a986a41a4f49">
+  <producedTypes>
+    <refType typeId="a48fa31f-b475-48a4-92dd-df13def4a308" valueTypeId="ebd00b97-3e00-4e85-9dc0-884a9bd137d1"/>
+    <listType typeId="717ea4f8-f305-4c37-9eeb-7b6bd1f7236f" valueTypeId="420af2e6-1fe6-469e-9234-a2c92d1f9fbd"/>
+    <managerType typeId="0460a480-c1e0-4d32-8ae1-61fc04ec6cb9" valueTypeId="2fbc123a-e455-43dd-9595-9401ac1df3d6"/>
+  </producedTypes>
+  <name>вмс_ВидыИспользованияНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды использования настроек</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f0aa76f1-81af-4f5d-ae4a-a6852ad76e77">
+    <name>ИсточникДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a6c574d-b713-4f20-bc4e-982ae481ea44">
+    <name>ОтборПоПолямДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор по полям данных</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

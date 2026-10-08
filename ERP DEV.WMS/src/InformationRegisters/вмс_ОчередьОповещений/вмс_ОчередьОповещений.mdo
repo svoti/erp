@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f381eb5-060c-4958-9bff-6b210f5529d1">
+  <producedTypes>
+    <selectionType typeId="865da33a-84e8-4f74-8beb-2609a3ea2027" valueTypeId="ad61dc67-7fd5-48da-9773-577e2fc84ca8"/>
+    <listType typeId="ea826290-6ff5-4fb9-9b93-9b703b7b32ee" valueTypeId="4aa8c22d-7a5e-4bf8-a5c3-5a308b1ba7f3"/>
+    <managerType typeId="95619374-7d3a-4ed3-b848-fd3c4308ddca" valueTypeId="e12b0f15-ac98-44af-8afd-ea313cb25980"/>
+    <recordSetType typeId="1652f0e3-a481-4716-bc68-d231c940e44d" valueTypeId="ae0e4b2c-52f5-461c-b289-5f08fdabff8c"/>
+    <recordKeyType typeId="1e0987cf-f48a-428f-ad97-bab5b80a0a22" valueTypeId="788a2799-a4cc-4a38-b39a-9099755a7e65"/>
+    <recordType typeId="11879fa6-a77e-4e6f-ac9a-a658979dabe3" valueTypeId="19a6aca2-6638-41b2-9e1e-3b1c474b6399"/>
+    <recordManagerType typeId="d50e20af-35b1-4a28-b884-3347151717fc" valueTypeId="9f221284-041e-47be-a230-9efe8dc004b8"/>
+  </producedTypes>
+  <name>вмс_ОчередьОповещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь оповещений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="01e3c165-c741-4973-b481-eef082e3a284">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="41393c75-ef2e-4255-bf61-2def1a435d51">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fbe7ec39-8e98-4863-87e7-f079617f7a78">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.вмс_Операции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2898ab6f-f35e-47a8-bf32-a7952f51e699">
+    <name>ОперацияПоЯчейкам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция по ячейкам</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.вмс_ОперацияПоЯчейкам</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c819de89-edd6-4338-a161-1e9d70bf73ce">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4c0e9f5f-e2d0-463d-92e6-03c7d102eb71">
+    <name>ТекстОповещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст оповещения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

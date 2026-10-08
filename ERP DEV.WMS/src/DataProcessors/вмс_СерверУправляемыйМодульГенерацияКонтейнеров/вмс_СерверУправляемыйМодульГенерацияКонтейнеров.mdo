@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d22924ce-8b8e-43fd-827d-75e5f81e5372">
+  <producedTypes>
+    <objectType typeId="db83ddf2-2b48-4cab-83ee-117671fb16fb" valueTypeId="632eec85-bf06-4ddd-ab80-200e359cb8a9"/>
+    <managerType typeId="4d1c3353-5f0d-409f-b460-91a36a84e376" valueTypeId="ae3802b8-f71a-4272-a364-5048542be299"/>
+  </producedTypes>
+  <name>вмс_СерверУправляемыйМодульГенерацияКонтейнеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервер управляемый модуль генерация контейнеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="b06b27b3-9a29-479b-ab0e-1a8135615fff">
+    <name>ПараметрыОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры обработки</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="94ca149c-2dcc-45d9-bf1a-acfa42b7b919">
+    <name>ДанныеОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные обработки</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0d47a6c0-9e58-47c6-bf89-fcde82f0c4bc">
+    <name>СостояниеОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние обработки</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f282b395-1f89-4737-af32-7c71ceb9a01c">
+    <name>СтандартныйМодуль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартный модуль</value>
+    </synonym>
+    <type>
+      <types>DataProcessorObject.вмс_СерверУправляемыйМодульСтандартный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>

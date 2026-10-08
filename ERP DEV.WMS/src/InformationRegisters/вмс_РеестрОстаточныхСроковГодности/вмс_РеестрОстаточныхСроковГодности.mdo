@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74cb9ae5-ee78-4f81-8cc0-4db41ca28fb7">
+  <producedTypes>
+    <selectionType typeId="fc970d3c-32c1-436c-94cd-be70d8ec9fb0" valueTypeId="a386f872-bd24-4371-9247-9097ead71f2c"/>
+    <listType typeId="6cd9fd90-f3f2-4505-808d-53f58cc75823" valueTypeId="4596b0a1-07db-4adb-9271-38d9bdecca25"/>
+    <managerType typeId="d399e4db-da23-41a4-a0e0-85a253507b6c" valueTypeId="cc924430-28c0-4090-b70c-3a0ecf826aaf"/>
+    <recordSetType typeId="bfcb7b1c-a20a-4f6b-a8be-9958c4acfc9f" valueTypeId="19db20f9-38b3-420a-8264-faf2abe8c5b4"/>
+    <recordKeyType typeId="42bb6dcc-a5c4-4202-a3e3-24b1413256de" valueTypeId="d070394b-e4ea-42bf-8884-57265aa57452"/>
+    <recordType typeId="8f0aeadc-cc06-4aa2-8d53-93600c51a846" valueTypeId="1771528d-2224-4c0a-b8fc-a16c5f2b2e5e"/>
+    <recordManagerType typeId="ab4a328b-a4e1-4dd5-8722-783b118ef7a7" valueTypeId="59bff899-aa1e-41c4-8881-711877f5687a"/>
+  </producedTypes>
+  <name>вмс_РеестрОстаточныхСроковГодности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр остаточных сроков годности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.вмс_РеестрОстаточныхСроковГодности.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="dd28e355-b1f9-4f66-81ad-6195066957bb">
+    <name>ПоказательОСГ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель ОСГ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="efdb4217-e365-4996-99c9-1a629192bdcc">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1dc54fad-23e5-458f-8d4a-d7c78385eba0">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="1b368533-d74d-4777-a72f-d5df4cb65bb4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="be75a56f-7b77-4a4c-89fc-09e7c543e32b">
+    <name>ФормаЗаписиОСГ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи ОСГ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

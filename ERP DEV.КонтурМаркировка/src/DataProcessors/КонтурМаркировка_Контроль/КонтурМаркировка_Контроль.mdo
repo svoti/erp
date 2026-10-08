@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb8371e4-a22d-42e0-9bc4-a42ef8894420">
+  <producedTypes>
+    <objectType typeId="e844f1cd-9c32-48fa-a2ca-69ed5eeeb6d7" valueTypeId="c9613a1d-c4be-4a10-8420-14efc40d2b7f"/>
+    <managerType typeId="5ca57115-3f01-414c-b9f9-1fe54f67d355" valueTypeId="b9010ffe-4f03-4889-8a24-bd2da8139544"/>
+  </producedTypes>
+  <name>КонтурМаркировка_Контроль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Библиотека контроля (Контур.Маркировка)</value>
+  </synonym>
+  <comment>Контроль.epf</comment>
+  <templates uuid="e461fe23-a9c2-4216-bb47-3ebf4d90d999">
+    <name>КлассификаторСтран</name>
+    <synonym>
+      <key>en</key>
+      <value>Classifier</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="da8335ff-bae8-4b59-8ca1-3f92caba23e4">
+    <name>ПричиныВозвратаВОборот</name>
+  </templates>
+  <templates uuid="9c93569d-3bc8-4d1a-997e-df1ec62b7ebd">
+    <name>ПричиныВыводаИзОборота</name>
+  </templates>
+  <templates uuid="8ca82fe6-9f38-40c8-b5be-68ab33f39a0d">
+    <name>ВидыКорректируемыхСведений</name>
+  </templates>
+</mdclass:DataProcessor>

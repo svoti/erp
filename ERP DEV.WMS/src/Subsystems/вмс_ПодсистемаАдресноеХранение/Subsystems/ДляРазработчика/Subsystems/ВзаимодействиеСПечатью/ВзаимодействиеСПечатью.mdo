@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4990490-9d54-4aad-a16e-878292ad01b4">
+  <name>ВзаимодействиеСПечатью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ОчередьПечати</content>
+  <content>InformationRegister.вмс_ОператорыПечатиАдресныхДокументов</content>
+  <content>72258295-e983-4212-9733-465ec8fdf24e</content>
+  <parentSubsystem>Subsystem.вмс_ПодсистемаАдресноеХранение.Subsystem.ДляРазработчика</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b721d853-2b25-4414-b98e-7cb839d3c52c">
+  <name>Печать</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.вмс_Печать</content>
+  <content>CommonModule.вмс_ПечатьКлиентСервер</content>
+  <content>CommonModule.вмс_ПечатьПереопределяемыйВызовСервера</content>
+  <content>Role.ПечатьАдресныхДокументов</content>
+  <content>CommonCommand.ПечатьШтрихкода</content>
+  <content>CommonCommand.ПечатьТоварныхЭтикеток</content>
+  <content>CommonCommand.ПечатьСтартовогоЗаполнения</content>
+  <content>CommonTemplate.МакетШтрихкода</content>
+  <content>CommonTemplate.Эталон</content>
+  <content>CommonTemplate.СкладскойШК</content>
+  <content>Catalog.вмс_Принтеры</content>
+  <content>Catalog.вмс_ПечатныеФормы</content>
+  <content>Catalog.ШаблоныЭтикеток_WMS</content>
+  <content>CommonModule.УправлениеПечатьюПереопределяемый</content>
+  <content>DataProcessor.ПечатьШтрихкода</content>
+  <content>InformationRegister.вмс_ОператорыПечатиАдресныхДокументов</content>
+  <content>InformationRegister.ОчередьПечати</content>
+  <content>CommonCommand.ПолучитьДоступныеПринтеры</content>
+  <content>Enum.ТипыПринтеров</content>
+  <content>Enum.ФорматПечати</content>
+  <content>5a26480a-6378-44c7-8fb2-2da73a3d6d7c</content>
+  <parentSubsystem>Subsystem.вмс_ФункциональныеПодсистемы.Subsystem.ТехнологическоеЯдроКомпонент</parentSubsystem>
+</mdclass:Subsystem>

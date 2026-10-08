@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69d3c788-2973-463b-9b21-e4ee7564517e">
+  <name>вмс_ОбработкаПодписокОтменыПроведенияДокументовИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка подписок отмены проведения документов ИС</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

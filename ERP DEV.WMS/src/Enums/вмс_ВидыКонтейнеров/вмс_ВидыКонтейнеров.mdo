@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="284ec22c-47a5-4f74-ab9d-8c4cf5c618e0">
+  <producedTypes>
+    <refType typeId="5aae82a2-ae7f-4fd0-a401-67cb6fd04298" valueTypeId="3e8a3756-c503-4f21-a09b-097b2b8f87e1"/>
+    <listType typeId="d93e0088-13a9-474a-97ec-4f6da507c305" valueTypeId="cf7301c0-7eb0-4823-81df-33020187168e"/>
+    <managerType typeId="339cf38f-ceec-4d10-b298-06bc9f81c240" valueTypeId="4313bad6-778f-4242-8368-f5b5f1f97792"/>
+  </producedTypes>
+  <name>вмс_ВидыКонтейнеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вмс виды контейнеров</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f67c83fa-5f61-4b6e-adad-db2cdf8c24a0">
+    <name>Паллета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паллета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="319053fc-fc64-48d8-9437-16278ef319bc">
+    <name>Короб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Короб</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

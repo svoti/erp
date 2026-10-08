@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0baa57ec-30b0-4a62-ae8d-b24c74a5b88f">
+  <producedTypes>
+    <selectionType typeId="f8b32e5c-1038-4555-ad1c-c6ebcd28b372" valueTypeId="6e6aad33-b032-4eca-ad9d-70fc2b0917d6"/>
+    <listType typeId="885864a2-1d04-47ee-9a09-80cff18a85cc" valueTypeId="d3220f8b-2f1f-405e-abcd-38c1b26163e9"/>
+    <managerType typeId="68d0712b-8aa5-4d77-b36b-2b4290f8131c" valueTypeId="ca51759e-ddf8-41f6-98c1-b8883382b860"/>
+    <recordSetType typeId="59e585f2-e9e5-4435-896e-fcf8bcc44f37" valueTypeId="722f0561-2df7-4f95-a6fe-cb32f85a663f"/>
+    <recordKeyType typeId="427eadb0-8132-445c-8392-03c13b37c2d7" valueTypeId="36b277e4-c267-416e-a9fc-62121063e8ec"/>
+    <recordType typeId="ffcb01b9-de61-4143-8f5b-a34c6fed1d94" valueTypeId="78cfdc81-dc2b-4f59-8827-fb038d339542"/>
+    <recordManagerType typeId="07f47cc8-1082-486a-bda3-adb8a38e95a6" valueTypeId="72dd879b-3e49-4d00-a727-d3b7b7032ddc"/>
+  </producedTypes>
+  <name>вмс_СоставыКомплектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Составы комплектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a3379ace-70d8-4dc9-8378-f4318aa3a746">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bca8f277-056c-4527-a552-57e35e6f8d57">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7bfceb0a-988a-4522-97d7-0291425997fd">
+    <name>ХарактеристикаТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика товара</value>
+    </synonym>
+    <type>
+      <types>DefinedType.вмс_ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Номенклатура</name>
+      <field>InformationRegister.вмс_СоставыКомплектов.Dimension.Товар</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a08a571b-bf72-4f0c-b86c-1633c83422ce">
+    <name>Комплектующая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектующая</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9eda88fd-3f23-419a-abce-f4b65ceb8255">
+    <name>ХарактеристикаКомплектующей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика комплектующей</value>
+    </synonym>
+    <type>
+      <types>DefinedType.вмс_ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Номенклатура</name>
+      <field>InformationRegister.вмс_СоставыКомплектов.Dimension.Комплектующая</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

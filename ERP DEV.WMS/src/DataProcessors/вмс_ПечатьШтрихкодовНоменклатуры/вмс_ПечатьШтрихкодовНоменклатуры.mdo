@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46f1d047-936c-428b-84eb-1a572b75f964">
+  <producedTypes>
+    <objectType typeId="0f3a327e-56e3-4f2f-b500-2c679244391e" valueTypeId="394c88c3-47e8-4f02-a99d-ece97c6ec41f"/>
+    <managerType typeId="d5457e14-260a-456e-85e5-b7487e4ccb44" valueTypeId="b6ea846a-1cc2-4a34-a18c-ec4a80690eb2"/>
+  </producedTypes>
+  <name>вмс_ПечатьШтрихкодовНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать и генерация штрихкодов номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.вмс_ПечатьШтрихкодовНоменклатуры.Form.Форма</defaultForm>
+  <attributes uuid="3e800bd4-9305-4603-872e-494dc41485b3">
+    <name>КоличествоЭтикеток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Введите количество ШК</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0a3edb53-7219-4a86-971b-05b2413d2196">
+    <name>ВысотаЭтикетки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота этикетки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="5639a825-ea8d-4a74-999d-f4f01372a119">
+    <name>ШиринаЭтикетки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ширина этикетки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="2a45f954-26bc-4c3c-abe3-103a006bae8d">
+    <name>РазмерШрифта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер шрифта</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="a2ebc3e0-6a6e-432c-94c7-e693d7dd8b8d">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="bdafb7ff-1dcc-4ef9-a56a-e19c1ffaa582">
+    <producedTypes>
+      <objectType typeId="55209ed4-1da2-4b11-9de6-4e5470b66282" valueTypeId="1e639e30-6d08-4633-b72f-b1ae2ec79171"/>
+      <rowType typeId="4d065110-d7dc-464c-ae8d-4989e830b56d" valueTypeId="8a3f9ee4-fcfa-482b-87ad-b88d7a786c94"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="d59f6e05-fdcb-4ed5-be95-b16e5e0cb85e">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="11caadad-2e63-44c9-97e7-354cba3db69e">
+      <name>Характеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика</value>
+      </synonym>
+      <type>
+        <types>DefinedType.вмс_ХарактеристикиНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="16e5f560-5c09-46be-b265-5920995c9e1b">
+      <name>КоличествоЭтикеток</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество этикеток</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a65e6495-e669-49b5-b536-0c6597921729">
+      <name>Штрихкод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Штрихкод</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="102bcebd-3d51-4ec9-b656-5027ed6a04e6">
+    <producedTypes>
+      <objectType typeId="1786a67c-1a1f-4adc-8868-ec06131501dc" valueTypeId="6b03b13c-500a-4c19-bda3-085fb6dfa230"/>
+      <rowType typeId="81361b26-5fd6-485f-9966-a287d6a07aa0" valueTypeId="f8fe7d51-109c-4fad-bdaf-327527560062"/>
+    </producedTypes>
+    <name>Пачки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пачки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="495452a0-e4d2-48cc-8436-02d695a48121">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c37a3131-898c-4ec9-bfa2-80ea538d8964">
+      <name>Пачка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пачка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3f441826-b68f-4d77-832c-771bac441ef6">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ed282162-fec9-4a3d-8119-e61a7cf7b5ef">
+      <name>Штрихкод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Штрихкод</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="a12f1f4e-e707-47e5-b8c3-dc63f4849193">
+      <name>ЕстьШК</name>
+      <synonym>
+        <key>ru</key>
+        <value>Есть ШК</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="9250f8ad-406a-43a9-8646-b734efa708b3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5de0a15c-5b6f-43b4-89b6-a9d7cc9e9e99">
+    <name>ФормаПодбораНом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора номенклатуры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d6303fcb-b8a5-4a15-9643-1d61646bb6c6">
+    <name>КомпонентаПечатиШтрихкодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компонента печати штрихкодов</value>
+    </synonym>
+    <comment>Компонента использует библиотеку ImageMagick, разработанную ImageMagick Studio LLC. Лицензия http://www.imagemagick.org/script/license.php</comment>
+    <templateType>AddIn</templateType>
+  </templates>
+  <templates uuid="fd228b3b-4bb0-481d-830f-f7ff71df1bc5">
+    <name>КомпонентаПечатиQRКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компонента печати QR кода</value>
+    </synonym>
+    <comment>Компонента печати QR кода</comment>
+    <templateType>AddIn</templateType>
+  </templates>
+  <templates uuid="98a16ffc-6031-41a3-b8f0-10d6a517bcb5">
+    <name>Эталон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эталон</value>
+    </synonym>
+  </templates>
+  <templates uuid="41a85195-f66f-4a43-99af-a4649507e488">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="a769fbe0-7cde-43b2-8e32-6cf11a3927f2">
+    <name>Макет1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет1</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

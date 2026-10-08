@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d6e3759-b6dc-4cf7-8005-d5d03b4ca827">
+  <producedTypes>
+    <objectType typeId="f527d771-f22c-4e4d-9243-d499c2c48a05" valueTypeId="63f6d7b0-884e-4ab1-9748-88f903dfabaf"/>
+    <refType typeId="e12092c3-03c9-4703-9b15-0a7c94c8dff6" valueTypeId="9852a468-9891-4af0-a1da-09b318e7fde5"/>
+    <selectionType typeId="3a390c82-a92c-4eb1-b6d7-6abfd053cba0" valueTypeId="4f97cb06-24ae-4b0a-b4f8-f88d6b6f50af"/>
+    <listType typeId="42f4b5a8-5be6-4b43-b2ff-1c8f2a70355f" valueTypeId="e1312de9-36a9-4fe7-89a4-19c346d55538"/>
+    <managerType typeId="7d85b2f4-9bfa-49b1-825c-2e08f8e2f197" valueTypeId="1844688b-e1ad-4cc9-804f-411324bb31be"/>
+  </producedTypes>
+  <name>КонтурМаркировка_ДопСправочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные справочники (Контур.Маркировка)</value>
+  </synonym>
+  <inputByString>Catalog.КонтурМаркировка_ДопСправочники.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8fe0b5c5-90f0-44c3-9e21-6f6f67551a16">
+    <name>ИмяСправочника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя справочника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2a5070a0-bb7e-4cbf-8807-eb83923734da">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтурМаркировка_Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a2a819d5-5361-4d0b-88c2-353a36713f5c">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Комментарий причины, по которой КиЗ не может быть принят.</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="28451e0a-e17c-443a-ba02-568cd20da70c">
+    <producedTypes>
+      <objectType typeId="978a9604-80c9-4552-8ee8-e807807c3230" valueTypeId="4c6132c7-0ce0-4dec-af9a-4dfe8bdbdcff"/>
+      <rowType typeId="31f389b3-81ec-4798-995e-856b0b9a0edc" valueTypeId="5cb2e604-a1c4-4799-b4d5-c66c733950e3"/>
+    </producedTypes>
+    <name>ДопРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп реквизиты</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a4a70083-f596-42bd-b6b6-6b3abc626af6">
+      <name>ИмяРеквизита</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя реквизита</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a786d92b-1cf3-4dac-ae3b-e521053b9b50">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>600</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="404b4b5c-9d3a-427b-a973-73b8d337581e">
+      <name>ЗначениеСсылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение ссылка</value>
+      </synonym>
+      <type>
+        <types>EnumRef.КонтурМаркировка_ТипыКодовМаркировки</types>
+        <types>CatalogRef.КонтурМаркировка_Склады</types>
+        <types>CatalogRef.КонтурМаркировка_ШаблоныЭтикеток</types>
+        <types>EnumRef.КонтурМаркировка_ТипыПлощадок</types>
+        <types>CatalogRef.КонтурМаркировка_ДокументыУчета</types>
+        <types>EnumRef.КонтурМаркировка_РолиСервисПровайдеров</types>
+        <types>EnumRef.КонтурМаркировка_ВидыПродукции</types>
+        <types>CatalogRef.КонтурМаркировка_Товары</types>
+        <types>CatalogRef.КонтурМаркировка_Файлы</types>
+        <types>CatalogRef.КонтурМаркировка_МобильныеУстройства</types>
+        <types>EnumRef.КонтурМаркировка_ТипыЭтикеток</types>
+        <types>EnumRef.КонтурМаркировка_ОбщиеТипыУпаковок</types>
+        <types>CatalogRef.КонтурМаркировка_Контрагенты</types>
+        <types>EnumRef.КонтурМаркировка_ТипыУпаковок</types>
+        <types>EnumRef.КонтурМаркировка_ВидыУпаковок</types>
+        <types>CatalogRef.КонтурМаркировка_Сертификаты</types>
+        <types>CatalogRef.КонтурМаркировка_Операции</types>
+        <types>EnumRef.КонтурМаркировка_ПравилаОтраженияВЭДО</types>
+        <types>CatalogRef.КонтурМаркировка_Пользователи</types>
+        <types>EnumRef.КонтурМаркировка_ТипыШтрихкодов</types>
+        <types>CatalogRef.КонтурМаркировка_ДопСправочники</types>
+        <types>CatalogRef.КонтурМаркировка_Организации</types>
+        <types>CatalogRef.КонтурМаркировка_КлючиНоменклатуры1С</types>
+        <types>CatalogRef.КонтурМаркировка_СервисПровайдеры</types>
+        <types>CatalogRef.КонтурМаркировка_ВидыАгрегатов</types>
+        <types>CatalogRef.КонтурМаркировка_Площадки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0ebca0ec-746c-4225-b810-dd885e5221b5">
+      <name>ЗначениеХранилище</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение хранилище</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

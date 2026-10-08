@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d663b803-c27a-4c28-9b6b-d575aed8c587">
+  <name>вмс_ПодсистемаОтветственноеХранение</name>
+  <synonym>
+    <key>ru</key>
+    <value>AS:3PL</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.вмс_ОХР</picture>
+  </picture>
+  <content>CommonPicture.вмс_ОХР</content>
+  <subsystems>вмс_ДокументыОХР</subsystems>
+  <subsystems>вмс_СправочникиОХР</subsystems>
+  <subsystems>вмс_РегистрыОХР</subsystems>
+  <subsystems>вмс_ОтчетыОХР</subsystems>
+  <subsystems>вмс_ЛичныйКабинет</subsystems>
+</mdclass:Subsystem>

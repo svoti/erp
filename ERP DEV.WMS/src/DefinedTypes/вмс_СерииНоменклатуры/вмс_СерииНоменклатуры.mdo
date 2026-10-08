@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09ed38d3-6e28-489d-aecf-9742fdbb48d0">
+  <producedTypes>
+    <containerType typeId="e50abe15-3532-4b10-869c-e150972d332c" valueTypeId="fb110f9b-9c04-4199-92bd-c08ef704fa4e"/>
+  </producedTypes>
+  <name>вмс_СерииНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вмс серии номенклатуры</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СерииНоменклатуры</types>
+  </type>
+</mdclass:DefinedType>

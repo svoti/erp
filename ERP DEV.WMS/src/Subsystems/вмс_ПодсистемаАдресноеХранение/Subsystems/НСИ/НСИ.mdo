@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e902716a-ca12-4ff5-b172-aec93a731c21">
+  <name>НСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативно - справочная информация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.вмс_Операции</content>
+  <content>Catalog.вмс_СтатусыДокументов</content>
+  <content>Catalog.вмс_ЭтапыОперации</content>
+  <content>ChartOfCharacteristicTypes.вмс_СоответствиеПрефиксов</content>
+  <content>ChartOfCharacteristicTypes.вмс_ПорядокСканированияОпераций</content>
+  <content>InformationRegister.вмс_ПрикрепленныеФотографии</content>
+  <content>Catalog.вмс_ИнтерфейсыТСД</content>
+  <content>Catalog.вмс_РаспоряженияОпераций</content>
+  <subsystems>Партии</subsystems>
+  <subsystems>ТопологияСклада</subsystems>
+  <parentSubsystem>Subsystem.вмс_ПодсистемаАдресноеХранение</parentSubsystem>
+</mdclass:Subsystem>

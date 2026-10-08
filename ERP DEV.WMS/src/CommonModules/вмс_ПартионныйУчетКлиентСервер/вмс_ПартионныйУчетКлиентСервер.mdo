@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="642d497d-369e-4553-814c-9b192d24dcee">
+  <name>вмс_ПартионныйУчетКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Партионный учет клиент сервер</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+</mdclass:CommonModule>

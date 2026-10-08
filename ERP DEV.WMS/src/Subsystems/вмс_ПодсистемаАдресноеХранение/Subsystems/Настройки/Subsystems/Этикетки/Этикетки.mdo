@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e6bf098-85ac-4fe1-b083-352b336dd0ab">
+  <name>Этикетки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этикетки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ШаблоныЭтикеток_WMS</content>
+  <content>InformationRegister.ШтрихкодыКонтрагентов</content>
+  <content>Catalog.вмс_Принтеры</content>
+  <parentSubsystem>Subsystem.вмс_ПодсистемаАдресноеХранение.Subsystem.Настройки</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dcf3954-4953-4faa-963f-3ca7426fee31">
+  <producedTypes>
+    <selectionType typeId="8851a01e-e7fa-4794-867b-5809135f45ad" valueTypeId="183798e0-54c7-498b-b166-9fd669a74f30"/>
+    <listType typeId="772c6c89-ca67-4cfe-9821-3d256619e846" valueTypeId="21459d17-de70-414e-8b7c-a84483ff78b1"/>
+    <managerType typeId="ee202c8b-c5dc-406c-bc3c-0ca3426ea6ff" valueTypeId="a95a5e08-28a0-4e24-bcb5-e5f4f71f1424"/>
+    <recordSetType typeId="0c5a381b-88f6-4937-9e26-e099dd9f3598" valueTypeId="ba726f89-e097-46a8-b5c1-cf1494337d94"/>
+    <recordKeyType typeId="95182f57-5ae6-4c38-9831-7a02d16324f8" valueTypeId="af489901-9bd4-44a2-910c-ac1e40a3aa94"/>
+    <recordType typeId="45abbd83-8241-4440-92f2-27087ea0767a" valueTypeId="23e730f8-d34e-4820-9c3c-e725ecacb37e"/>
+    <recordManagerType typeId="f76182e4-4476-4556-a6de-a504d3a76337" valueTypeId="009caf3d-9f0b-468f-bc5c-6563ed39e0c5"/>
+  </producedTypes>
+  <name>вмс_ЗадачиКладовщиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи кладовщиков (ВМС)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="b2a49292-4a12-48a4-94a0-cec1f38917f5">
+    <name>Распоряжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распоряжение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7149baf0-c967-40cf-b4c5-9bdb1ea9ff81">
+    <name>ЗадачаКладовщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача кладовщика</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.вмс_ЗаданиеКладовщику</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="42bcdedb-11f4-4ab2-8d27-66529c5a265b">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.вмс_СостоянияЗаявокКладовщику</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

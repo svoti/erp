@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28800348-473e-4564-9c80-5d58e9f0b279">
+  <producedTypes>
+    <selectionType typeId="dba15e99-9179-4f64-91c8-697ff2d8f63d" valueTypeId="315ee65a-e788-4958-93b5-bd9848056153"/>
+    <listType typeId="a178cf33-3e16-4bdb-a009-bc3836281604" valueTypeId="ae1a4dea-49c5-487f-b5ae-86452abc23ba"/>
+    <managerType typeId="c34c0d71-15ba-45a9-a271-f8fdb1910a3a" valueTypeId="d90c0c67-49b9-4578-9ba4-89121bd74971"/>
+    <recordSetType typeId="43fd269e-dcf6-42e1-896a-4b1043500af6" valueTypeId="231d512d-96c1-4650-8d7e-5d84d4b7cdc3"/>
+    <recordKeyType typeId="58ea8696-cf1e-4006-a334-33be2e64e487" valueTypeId="da4ac178-8917-4806-a634-1adfa802a59a"/>
+    <recordType typeId="d47b4845-090d-4261-b143-713bdd75c855" valueTypeId="0a44e41a-c8d9-4ed2-a2f0-d9797affd389"/>
+    <recordManagerType typeId="da4d2937-50ce-45e9-aa6a-01a1c5534933" valueTypeId="da767acc-209d-44b1-8afa-575bc3994db5"/>
+  </producedTypes>
+  <name>вмс_ХранениеКартСкладов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранение карт складов</value>
+  </synonym>
+  <comment>ТУ_Августинович 29.08.2025</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ffdc7dd2-014a-443b-8a55-08a68f84684e">
+    <name>СвойстваКартыСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства карты склада</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="51453d9b-a698-439a-a833-322d570eca2f">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

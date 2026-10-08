@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f72f9a1-73d5-45aa-80e1-e2638c3949cc">
+  <producedTypes>
+    <objectType typeId="039894b0-0f02-467e-9cf6-c99ec5f39a67" valueTypeId="69310c2e-9841-48f0-a08a-8bc96d5cb739"/>
+    <managerType typeId="803e1ad1-e614-4f49-a26d-cefa0b918b9e" valueTypeId="ca4c87ae-cf39-4c04-9581-da39611c044b"/>
+  </producedTypes>
+  <name>ЗагрузкаМестХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка мест хранения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаМестХранения.Form.Форма</defaultForm>
+  <attributes uuid="27df1bfc-3778-42d6-8efd-767fca8b1479">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="1d76c0a2-5d69-4087-9db9-62c0a5046fc6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

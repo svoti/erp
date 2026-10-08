@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8414fd90-57db-479b-8660-60be180ad62d">
+  <name>ПредопределенныеЭлементы_ЗвуковаяСхема_Стандартная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предопределенные элементы звуковая схема стандартная</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d98e4e3-154a-4960-b356-9a34f5913ec2">
+  <name>РазвертываниеКомпоненты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Развертывание компоненты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonTemplate.ПредопределенныеЭлементыОсновныхОбъектов</content>
+  <content>CommonTemplate.ПредопределенныеЭлементыДополнительныхРеквизитов</content>
+  <content>af0dce25-5fef-4a97-907b-eb2b574d0866</content>
+  <content>CommonTemplate.ПредопределенныеЭлементыПрограммныхМодулей</content>
+  <content>CommonTemplate.вмс_ПолучениеДереваОбработчиковОбновления_УТ103</content>
+  <parentSubsystem>Subsystem.вмс_ФункциональныеПодсистемы.Subsystem.ТехнологическоеЯдроКомпонент</parentSubsystem>
+</mdclass:Subsystem>

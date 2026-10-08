@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5948be96-64f5-4bd1-8244-3572e3ddeac5">
+  <name>ОбновлениеПодсистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление подсистемы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.вмс_ОбновлениеИнформационнойБазы</content>
+  <content>CommonModule.вмс_ОбновлениеИнформационнойБазыWMS</content>
+  <content>CommonModule.вмс_ОбновлениеИнформационнойБазыВызовСервера</content>
+  <content>CommonModule.вмс_ОбновлениеИнформационнойБазыСлужебный</content>
+  <content>CommonModule.вмс_ОбновлениеИнформационнойБазыСлужебныйПовтИсп</content>
+  <content>CommonTemplate.вмс_ПолучениеДереваОбработчиковОбновления</content>
+  <content>CommonTemplate.вмс_ПолучениеДереваОбработчиковОбновления_УТ103</content>
+  <content>3ce19edf-b1a0-4233-b7dd-135941ca98ef</content>
+  <content>InformationRegister.ВерсииПодсистем</content>
+  <parentSubsystem>Subsystem.вмс_ФункциональныеПодсистемы.Subsystem.ТехнологическоеЯдроКомпонент.Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

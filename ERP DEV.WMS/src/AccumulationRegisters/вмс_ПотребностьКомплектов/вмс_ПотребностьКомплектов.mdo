@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e68d74b-2a89-4ee5-98eb-361a48c2fc8a">
+  <producedTypes>
+    <selectionType typeId="6134df2d-708a-4941-a6c9-46e63ea47cfd" valueTypeId="349f0baf-3548-49e4-bc3b-d5652e635c81"/>
+    <listType typeId="5816eddf-b125-4cb7-8eb1-e2cc94c8749b" valueTypeId="c1eb2e63-6b03-45e3-937e-ef7771d632bd"/>
+    <managerType typeId="be82fd13-0c69-46e8-aa45-a8d1b44f8fa1" valueTypeId="e033407c-84ed-467a-ad8d-452ecb413a1a"/>
+    <recordSetType typeId="f89be2c1-8f89-45f2-bf6a-e12c09a396f5" valueTypeId="6a8da013-2169-4c79-83e9-e8dab5ea4af0"/>
+    <recordKeyType typeId="0bce8ea3-0f77-4f1a-90a1-a4e940fc4e12" valueTypeId="4b9cc133-dae7-4f82-88ac-34d05b1503cc"/>
+    <recordType typeId="9a7ebfa2-9d9d-46d3-8adb-3e84c7bf9009" valueTypeId="9628f331-3a66-49df-be82-213f15bc3b35"/>
+  </producedTypes>
+  <name>вмс_ПотребностьКомплектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Потребность комплектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="6b8bc124-96cc-48bd-90c1-6e0b3117837b">
+    <name>Потребность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потребность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="1cdb44c6-fa3e-4639-8bd5-9ace8d8ea242">
+    <name>ДокументПотребности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ потребности</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="490816d0-afdb-40da-a332-ecaa5797579c">
+    <name>Комплект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="1c5792b6-42c2-476b-9d81-9b8747f705b2">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <type>
+      <types>DefinedType.вмс_ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

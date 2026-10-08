@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83495189-4012-4589-b7f3-019dcd94f328">
+  <producedTypes>
+    <objectType typeId="270b9c69-74c5-4e1b-a0a3-6b8756d66164" valueTypeId="b21ca849-2ad1-45ad-9cc7-7758dfbe6bc1"/>
+    <managerType typeId="fc202b8b-7547-4e77-b397-888992620f60" valueTypeId="12e22176-ac28-4f09-9eee-cad2190838a7"/>
+  </producedTypes>
+  <name>ТопологияСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация топологии склада</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ТопологияСклада.Form.Форма</defaultForm>
+  <attributes uuid="79ce60b8-cb89-4219-875c-3fa94d09a745">
+    <name>Пример</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пример</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>23</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3889f42e-bf0e-4d3d-967f-4b7e5cfe8baf">
+    <name>КоличествоЯчеек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество ячеек</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7f1f9dbf-118c-4a7f-b781-df229dcf0338">
+    <name>Секции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Секции</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="409cd4e6-781b-41fa-b64e-a68b7855775e">
+    <name>КоличествоСекции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество секции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="07520c86-60f5-407e-a65e-2c1cbb5831af">
+    <name>ТипНомераСекции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера секции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>26</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="021afaa1-65d3-4783-b98c-c0631e3855cc">
+    <name>ЛидирующиеНулиСекции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лидирующие нули секции</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d89219a9-3f6a-47f8-8622-870943b3fa6c">
+    <name>КоличествоЦифрСекции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество цифр секции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7cbd8a31-258d-4d0a-a565-a2a9d319753f">
+    <name>ДиапазонБуквОтСекции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон букв от секции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5af85adb-e5c8-4267-9d9b-206b398836b7">
+    <name>ДиапазонБуквДоСекции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон букв до секции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7cebe466-627f-4976-9380-a6d2cd294901">
+    <name>ДиапазонЧиселОтСекции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон чисел от секции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="84b61a4e-b2ff-4c53-969d-018d308e308e">
+    <name>ДиапазонЧиселДоСекции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон чисел до секции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="76e47416-d5a7-49b9-907c-c6fa5a45cd93">
+    <name>РазделительСекции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделитель секции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f16c465f-54b4-4545-87f7-314016e527a4">
+    <name>Линии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линии</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="84655111-ceaa-4530-9cc0-fb78501db8f4">
+    <name>КоличествоЛиний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество линий</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5051e7b7-2c2c-45df-8dfb-e26e932ba871">
+    <name>ТипНомераЛинии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера линии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>26</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b17661e2-68c9-499e-9f88-6c9080c329b1">
+    <name>ЛидирующиеНулиЛинии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лидирующие нули линии</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ddfecd33-b992-4214-acd1-3b7d21221563">
+    <name>КоличествоЦифрЛинии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество цифр линии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="238702df-2e44-4c4e-83ab-8877c9d46bcf">
+    <name>ДиапазонБуквОтЛинии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон букв от линии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="73527555-704f-4981-b9a3-fc230ee0270f">
+    <name>ДиапазонБуквДоЛинии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон букв до линии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="88802f75-a81d-40e4-8ef8-8b77912fbc46">
+    <name>ДиапазонЧиселОтЛинии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон чисел от линии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4bfd9aa2-02f8-4fdd-a4ff-ae37ae804692">
+    <name>ДиапазонЧиселДоЛинии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон чисел до линии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ccd271b8-64ff-4ece-b1c4-364ce10d39f8">
+    <name>РазделительЛинии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделитель линии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4d7b79bb-3443-4dda-a7f7-4594b02db3b8">
+    <name>Стеллажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стеллажи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8e129c35-2d62-416a-9b70-02263fb8a489">
+    <name>КоличествоСтеллажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество стеллажи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4adf5ccd-0525-44a5-9fda-21cd2f0548a1">
+    <name>ТипНомераСтеллажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера стеллажи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>26</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4205ac3b-241c-495f-a7df-13595139cc95">
+    <name>ЛидирующиеНулиСтеллажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лидирующие нули стеллажи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d01a0b7d-c0ca-4547-8450-d2b259333973">
+    <name>КоличествоЦифрСтеллажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество цифр стеллажи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="22eed1ad-8845-4fa9-a4d8-13998565a7ee">
+    <name>ДиапазонБуквОтСтеллажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон букв от стеллажи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8a96aa86-2e14-452e-813a-d091631e18a0">
+    <name>ДиапазонБуквДоСтеллажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон букв до стеллажи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7d3d0c95-c767-46e3-b988-343bcd88a8bf">
+    <name>ДиапазонЧиселОтСтеллажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон чисел от стеллажи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6a7dde35-10c9-421b-b9a9-191ce2be857a">
+    <name>ДиапазонЧиселДоСтеллажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон чисел до стеллажи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ad30c030-2ec5-410d-8a3d-bde4cf4d78c9">
+    <name>РазделительСтеллажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделитель стеллажи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2cb03c7b-2e4f-43d0-afa4-8944e2d9eefc">
+    <name>Ярусы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ярусы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e52ee207-b240-4f71-aa39-1aa034782bf7">
+    <name>КоличествоЯрусы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество ярусы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="10566030-9ad7-4b28-ad81-ca5a1082cf1d">
+    <name>ТипНомераЯрусы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера ярусы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>26</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="546cac53-9c98-4a39-af35-1fecf41410ee">
+    <name>ЛидирующиеНулиЯрусы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лидирующие нули ярусы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c8646b66-a97a-4395-bf77-8406e993b431">
+    <name>КоличествоЦифрЯрусы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество цифр ярусы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="70ca4c76-92dc-49fb-ab6d-03750f93911f">
+    <name>ДиапазонБуквОтЯрусы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон букв от ярусы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="305a2972-c716-4853-987e-187c22089149">
+    <name>ДиапазонБуквДоЯрусы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон букв до ярусы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="30b749f8-5ea7-4778-a487-6e58a9c4725c">
+    <name>ДиапазонЧиселОтЯрусы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон чисел от ярусы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5e06b9a3-4425-4ec1-8fa8-f732087b4f99">
+    <name>ДиапазонЧиселДоЯрусы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон чисел до ярусы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b7e70994-8f22-4bb5-ae0d-98dcb342d878">
+    <name>РазделительЯрусы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделитель ярусы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="27c87f45-bba1-4627-a756-e194ab079d23">
+    <name>Позиции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Позиции</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8b5c62b5-df1d-4ff8-a85f-1d30c170523d">
+    <name>КоличествоПозиции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество позиции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0df32126-d46b-464b-baa9-4025243d531b">
+    <name>ТипНомераПозиции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера позиции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>26</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="269e333a-1aed-44f4-b463-b002727b2a87">
+    <name>ЛидирующиеНулиПозиции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лидирующие нули позиции</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c1d2a73d-a0a5-44b9-8d16-850796deb847">
+    <name>КоличествоЦифрПозиции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество цифр позиции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="92d1b30a-5170-425f-92a7-78bea83b81f8">
+    <name>ДиапазонБуквОтПозиции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон букв от позиции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9f22e58e-3f23-486e-a4a8-3642baf14c1e">
+    <name>ДиапазонБуквДоПозиции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон букв до позиции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ecb5ab56-8861-4f91-9799-8b0286544045">
+    <name>ДиапазонЧиселОтПозиции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон чисел от позиции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="887668ee-7656-44d2-9591-2e41362b6730">
+    <name>ДиапазонЧиселДоПозиции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон чисел до позиции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6c7596f5-6b1e-48e6-80f8-9a8141524296">
+    <name>РазделительПозиции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделитель позиции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ab5541dd-72e2-4dc0-bd37-2cc9a1a17dbc">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bec50239-9d70-4180-b24a-6c30699b5656">
+    <name>КоличествоСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество склад</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d97098dd-9648-4f5c-a3f3-b5b7ca21adec">
+    <name>ТипНомераСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера склад</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>26</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e08a83d7-da7c-4994-a20f-205341754be7">
+    <name>ЛидирующиеНулиСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лидирующие нули склад</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cbd4285d-75bd-4fc2-958d-c0a8d41d3682">
+    <name>КоличествоЦифрСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество цифр склад</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8499de96-9508-4556-87bc-3d335ba764bc">
+    <name>ДиапазонБуквОтСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон букв от склад</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b807f318-4313-4cce-b361-b8198fc776c2">
+    <name>ДиапазонБуквДоСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон букв до склад</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ba4c47bf-4239-4800-a3e5-8f5f7b9af1c5">
+    <name>ДиапазонЧиселОтСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон чисел от склад</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b1d46359-29f6-46fa-8668-cf1d6cb6c0e7">
+    <name>ДиапазонЧиселДоСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон чисел до склад</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="50b96e59-1af9-4a40-a2da-a7e731aa901d">
+    <name>РазделительСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделитель склад</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="bfce05e7-1850-4981-984d-0b17f397243c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="369dcf51-57de-436d-ad81-03ca2ddd1907">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

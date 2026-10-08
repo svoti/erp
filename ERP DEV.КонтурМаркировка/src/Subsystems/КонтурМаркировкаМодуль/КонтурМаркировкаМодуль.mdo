@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1da3d8c8-8490-44f6-9c35-416469a65142">
+  <name>КонтурМаркировкаМодуль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контур.Маркировка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.КонтурМаркировка</content>
+  <content>DataProcessor.КонтурМаркировка_БиблиотекаПлагинов</content>
+  <content>DataProcessor.КонтурМаркировка_Ядро</content>
+  <content>DataProcessor.КонтурМаркировка_РегламентныеЗадания</content>
+  <content>DataProcessor.КонтурМаркировка_Контроль</content>
+</mdclass:Subsystem>

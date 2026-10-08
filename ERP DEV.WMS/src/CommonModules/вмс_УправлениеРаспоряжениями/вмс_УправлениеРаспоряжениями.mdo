@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03a05bd4-b23c-4bec-b8ce-0268831c829b">
+  <name>вмс_УправлениеРаспоряжениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление распоряжениями</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

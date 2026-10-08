@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1f078e3-ab00-4ee2-bb8b-066c1f1d1240">
+  <producedTypes>
+    <objectType typeId="99bac256-0d20-4a74-a215-3fbefeaff115" valueTypeId="2c5295b1-daec-4816-b323-6d667eb80ce8"/>
+    <refType typeId="f73bd27b-af07-45e4-8e1f-50472e4e29ab" valueTypeId="b7719cd9-c52c-49c1-a37b-459eeb6d10a2"/>
+    <selectionType typeId="32081da9-ba87-4036-b947-acdd5ab664b2" valueTypeId="0adea3e6-0b0c-406c-8b80-51fd4f84265c"/>
+    <listType typeId="153ff8f7-d1a6-4ff8-bd71-bc5b9ecf31b5" valueTypeId="13a8b637-2dd4-4a71-804e-691cd0ea4162"/>
+    <managerType typeId="f15befbe-8fb6-4a06-8467-0193223542a0" valueTypeId="2d6cc6a9-b0dd-4edf-bcfa-f3baae098924"/>
+  </producedTypes>
+  <name>вмс_ИсточникиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники данных (вмс)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.вмс_ИсточникиДанных.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.вмс_ПравилаЗаполненияЗадачиКладовщику</owners>
+  <owners>Catalog.вмс_Операции</owners>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="cfc91524-636c-4e46-8b7d-5a9f3f3cb358">
+    <name>Хранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>4</size>
+		<columnsItem>
+			<index>0</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>1</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>2</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>3</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<formatIndex>2</formatIndex>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>1</id>
+		<formatIndex>4</formatIndex>
+		<beginRow>0</beginRow>
+		<beginRowOffset>3</beginRowOffset>
+		<endRow>0</endRow>
+		<endRowOffset>273</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>12</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>171</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Proportionally</pictureSize>
+		<zOrder>1</zOrder>
+		<pictureIndex>1</pictureIndex>
+	</drawing>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>1</defaultFormatIndex>
+	<height>1</height>
+	<vgRows>1</vgRows>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ОбластьШтрихкод</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>0</beginRow>
+			<endRow>0</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>Штрихкод</name>
+		<drawingID>1</drawingID>
+	</namedItem>
+	<printArea>
+		<type>Rectangle</type>
+		<beginRow>0</beginRow>
+		<endRow>0</endRow>
+		<beginColumn>3</beginColumn>
+		<endColumn>0</endColumn>
+	</printArea>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentDrawingLineType">Dotted</v8ui:style>
+	</line>
+	<format>
+		<width>72</width>
+	</format>
+	<format>
+		<height>288</height>
+	</format>
+	<format>
+		<height>126</height>
+		<width>72</width>
+		<pattern>Solid</pattern>
+	</format>
+	<format>
+		<drawingBorder>0</drawingBorder>
+		<verticalAlignment>Top</verticalAlignment>
+		<backColor>style:FieldBackColor</backColor>
+		<patternColor>#BEBEBE</patternColor>
+		<pattern>Pattern3</pattern>
+	</format>
+	<picture>
+		<index>0</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAAG4AAAA2CAIAAACp5Ds2AAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAA
+OpgAABdwnLpRPAAAAl5JREFUeF7tm+uygyAMhHve/6E9nYoQciPay7QzX385KgJL
+sglL+rdt243fSxC4Q8nvJQjckq/cl2q32f0dedEf9eW0L8jm+2u9L3ndG9qO1KNo
+PNKxomHIT0UT6d+x81UjV+Nv7wOlRFAu+XJpFXRYZfM86WdYZeMQ5b/KuJTdKQSx
+ypGEwJV+fCPsODZCBCcZmrJAm7fJIE4EJ4KLLQMp+nCOfBvjBh8ZqYESKA8lSdqC
+Nasesu0uQhkUe/DB1go1191IhkiGSIYePCwFQES2JpIq6VMpN0RwIjgRfN4dDIEd
+FR0VfZw1wZVwJVwJV7oHYZztOJuQfP9Kik6KfmzZXFtAGaLQZbAKhS7TMY6bmVNS
+QEnBkaRztjPVuMpgIoVCDiQcio3KEjmQaPopyhDKEMrQceoivYGwQ9iZ2JHyK8qv
+frr8Kon1736kyPTd3dWzmonxrzX78GR+EkqpeSRFVePEUuhpCl/1qb4Fcu/bD1pl
+IW+oDsuWI7TqjqrmaIn3PMFkUad/eKkiKZuv9K+rC1eCtKuSY20t3dWyVF9yDybh
+S0YYQVZsHnmkjuDR6CNYbfdyMaOndp51HJ+Hctl7vjwfhdJ6QeTdS6Z2X3DtvX7z
+W6CMKMaabeTgShZxWWXpHDmvVcyqwh4R//oLnPDXNadzp+HyQ0KmOZR1Fj7bhep3
+2dE0rzqUxelJX3abLE2mYpJFFj4FpetweUdXoMxBsRE8Cg7y/pIBQoL3/lr+JFde
+mKC2wqJVRrbmcpbL6zm7LTMEO05LsvUu7NpfmOACyiSk8ihHIFOGwO4UAv85YMal
+RyuctgAAAABJRU5ErkJggg==</picture>
+	</picture>
+</document>

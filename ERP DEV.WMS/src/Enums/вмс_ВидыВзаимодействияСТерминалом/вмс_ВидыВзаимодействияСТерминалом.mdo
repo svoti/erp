@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22b70993-71a2-45f7-908a-515eaaf7583f">
+  <producedTypes>
+    <refType typeId="41fb0ff0-2e0d-4c3b-85aa-564a33b56028" valueTypeId="5fe921cd-0fac-4642-9173-fd5a41264247"/>
+    <listType typeId="2c1b2386-58da-4538-8372-7bea0908cf55" valueTypeId="d2cabf57-df6c-4b51-96b7-a133c0097c68"/>
+    <managerType typeId="6e5462c8-4020-4cbc-8e5f-f39d66139fbc" valueTypeId="66ac9372-cf7a-441e-b511-f4e144102665"/>
+  </producedTypes>
+  <name>вмс_ВидыВзаимодействияСТерминалом</name>
+  <synonym>
+    <key>ru</key>
+    <value>WMS виды взаимодействия с терминалом</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7ec42f8c-3800-4889-a2f6-58ef6bdd2396">
+    <name>Авторизован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авторизован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e96ec353-7444-40ca-b61d-81b828853692">
+    <name>ВОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>В операции</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

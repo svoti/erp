@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4028b364-2030-456f-b96b-e3daff411d27">
+  <name>КонтурМаркировка_ГалочкаВКруге</name>
+  <synonym>
+    <key>ru</key>
+    <value>Галочка в круге (Контур.Маркировка)</value>
+  </synonym>
+</mdclass:CommonPicture>

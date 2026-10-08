@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b69a2a55-a8bb-4f27-aaf8-3cd46544170e">
+  <producedTypes>
+    <objectType typeId="336455a8-bbea-47bd-a462-fb860a420f00" valueTypeId="785e9160-5b88-4e36-bfd7-d6f5de768c78"/>
+    <refType typeId="bd8949a8-fa3c-47cd-aab8-0fcb2933a98e" valueTypeId="fca8c9a0-d9b5-48ef-a770-1bc73c1d4128"/>
+    <selectionType typeId="a46bab49-6aed-48a9-89cb-6487b0c8f2b4" valueTypeId="90f2c6c0-9f05-4e1c-b023-91910a7f17d6"/>
+    <listType typeId="1a122ebc-bc81-4cae-b977-65f74af567ce" valueTypeId="23de8957-f437-4eaa-a4ce-c22b3773b9b6"/>
+    <managerType typeId="399a37db-3633-49ac-a62f-b038088eabfc" valueTypeId="89850022-9437-48dd-b0d7-92d5af04e345"/>
+  </producedTypes>
+  <name>вмс_СхемыСоединенияОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Схемы соединения объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.вмс_СхемыСоединенияОбъектов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.вмс_СхемыСоединенияОбъектов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="459a657a-a496-425d-8a77-7def25bfdd9a">
+  <producedTypes>
+    <selectionType typeId="b1825545-2cd7-4976-88f2-0f271c3d1c2b" valueTypeId="66da2e0b-1038-43ce-af50-64ed392bed48"/>
+    <listType typeId="1c2023ff-2ca7-4a80-ba52-fc5be095930d" valueTypeId="f8bb3f7c-e656-4d53-91a7-d15017004f92"/>
+    <managerType typeId="1affebf7-82c0-49f5-aa30-174b1adb6d92" valueTypeId="44929df0-34f2-4c80-aff8-da7101c1e68b"/>
+    <recordSetType typeId="8f5d715d-5cb6-4b6c-8440-4f9d6995c9d3" valueTypeId="508020b9-1c6a-49e3-8fd3-f0324b23d7bd"/>
+    <recordKeyType typeId="0b74c328-20fe-48dd-8e90-9dc662a5556f" valueTypeId="f8ce764e-4384-484e-ae6a-2a2956a19b74"/>
+    <recordType typeId="209e83de-2074-418e-b1a2-ad188f86a971" valueTypeId="a572cde8-b46f-4258-94a5-ca6ae84c8803"/>
+    <recordManagerType typeId="0c342f3c-6a63-4e7b-9ba0-4db03395c2d6" valueTypeId="cfcf99de-6fca-48cd-8617-e89e81c0badb"/>
+  </producedTypes>
+  <name>вмс_ОбновитьЗаданияКладовщиковПоПравиламЗаполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновить задания кладовщиков по правилам заполнения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d54dd255-3cb3-4cff-add2-690cd8a6b2cf">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="da26a7c4-3589-47c9-a5a4-e8baee1363b5">
+    <name>ИнформацияОбОшибке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация об ошибке</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="ef3155c7-62b2-497c-a672-01e74b0190f8">
+    <name>Сообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="06c981ef-7eec-41a1-9d2e-cfc49b84c868">
+    <name>Правило</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.вмс_ПравилаЗаполненияЗадачиКладовщику</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8ef8ff84-1ca5-490e-8343-c1d75b52befc">
+    <name>Распоряжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распоряжение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="672acc51-c6a3-459f-84f9-b6b4ceca3021">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

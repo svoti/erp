@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="710067bb-6a1f-4d18-ac8e-3414a5d58db7">
+  <producedTypes>
+    <objectType typeId="3f52e29f-b993-4ec5-a20a-1c139d742a4f" valueTypeId="4f67dbff-3d60-474f-9260-574ae4547925"/>
+    <managerType typeId="d96509c3-5758-4c4b-9a98-d88957faf3b7" valueTypeId="377ffafd-62a3-4c0d-9387-7d60b42edb54"/>
+  </producedTypes>
+  <name>СКДИерархияКонтейнеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не интерактивно</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СКДИерархияКонтейнеров.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="feaea994-25dd-40b2-a74e-33498aa33431">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

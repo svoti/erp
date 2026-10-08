@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dc332f48-7b2b-490e-b11e-169a41c33e80" extendedConfigurationObject="5e53ccc6-5ab4-4f9d-b524-0081d345d7a2">
+  <producedTypes>
+    <selectionType typeId="794765bf-2bf1-466b-b2a2-e7296469bffd" valueTypeId="7ae97f8a-ebb6-41a8-bca5-533f923b2765"/>
+    <listType typeId="aa3af783-d11b-4f13-a009-946671bc8fda" valueTypeId="8c078661-4609-400c-bbbc-a19b21a2bf8b"/>
+    <managerType typeId="f54ebd58-ad0e-437f-b0ae-be050f2fabbf" valueTypeId="eb613572-17b1-4f8e-8203-dee66933d5d1"/>
+    <recordSetType typeId="e5bb40cd-67d5-4246-a08a-b52ccc470ce5" valueTypeId="4f4cf595-a0a9-478d-ba01-55bb9ce1111e"/>
+    <recordKeyType typeId="1f3693b9-2907-4606-b8eb-1af75ae8b2a9" valueTypeId="61126f39-c41e-4be7-b580-ac9c62021f03"/>
+    <recordType typeId="1ceaf48b-32a4-4b40-be8b-8b1246a5d893" valueTypeId="0e6b5f76-395c-43e1-a344-e84034a97358"/>
+    <recordManagerType typeId="69176f53-6ae7-44a7-a557-19814953af4b" valueTypeId="998e7cc1-c8f3-4c6c-9cfc-a48f84450702"/>
+  </producedTypes>
+  <name>ВерсииПодсистем</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <recordSetModule>Extended</recordSetModule>
+  </extension>
+  <resources uuid="c5a5f6ab-52fe-4ab9-9fea-cad15ac447e9" extendedConfigurationObject="c3b3805b-3501-47a7-b280-46180049b235">
+    <name>Версия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>15</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <attributes uuid="ecbb78f3-d5e8-48dc-9877-2aa914e0b983" extendedConfigurationObject="f55d74bf-5824-4228-9683-31f7c7fdf74d">
+    <name>ВыполненаРегистрацияОтложенныхОбработчиков</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <dimensions uuid="334da276-f7a1-4f30-81de-4b31cf40ddf3" extendedConfigurationObject="5e922083-0ceb-449a-8201-7dd27a46f2fc">
+    <name>ИмяПодсистемы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

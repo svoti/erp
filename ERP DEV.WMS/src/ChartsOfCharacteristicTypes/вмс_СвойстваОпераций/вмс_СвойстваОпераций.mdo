@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22b25fa6-97d2-40b1-bc71-78025d018029">
+  <producedTypes>
+    <objectType typeId="199fc578-1dd4-4c09-88dd-75fdee9277dd" valueTypeId="e2e667ca-9117-401f-9ed2-eb7dd5fab99e"/>
+    <refType typeId="e61577b3-b8f3-44fe-9ff9-b1b6a25ee42d" valueTypeId="e8f79950-27a8-46e3-882b-84a234fa62f2"/>
+    <selectionType typeId="ad7895d6-d11c-4dfd-a357-fec0fce3000c" valueTypeId="52c9b78c-1dcc-4e0c-b4e3-b5b63e9ce6fa"/>
+    <listType typeId="6e7af7b6-e248-4594-a6c7-b0acae9e97bb" valueTypeId="c5fcc788-716c-4758-9686-1975a3209714"/>
+    <managerType typeId="adb1e08a-fa18-4226-8bfc-91d918b177e9" valueTypeId="2dfa448a-7a26-4398-be22-2a2ad3051e8d"/>
+    <containerType typeId="228eb2d6-5f21-4d9d-9ea4-757b11a18be3" valueTypeId="8cfbbc18-dbaa-422b-b371-714bf691ec8c"/>
+  </producedTypes>
+  <name>вмс_СвойстваОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.вмс_СвойстваОпераций.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.вмс_СвойстваОпераций.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>250</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="eee8b8e8-2cab-4eba-9f60-84f6cec371c1">
+      <name>РазрешитьВводЛюбогоТовара</name>
+      <description>Разрешить ввод любого товара</description>
+      <code>000000001</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

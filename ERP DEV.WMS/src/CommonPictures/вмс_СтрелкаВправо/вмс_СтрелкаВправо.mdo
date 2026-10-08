@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9133379-8939-4ea1-bac2-598b155f34b2">
+  <name>вмс_СтрелкаВправо</name>
+  <synonym>
+    <key>ru</key>
+    <value>WMS стрелка вправо</value>
+  </synonym>
+</mdclass:CommonPicture>

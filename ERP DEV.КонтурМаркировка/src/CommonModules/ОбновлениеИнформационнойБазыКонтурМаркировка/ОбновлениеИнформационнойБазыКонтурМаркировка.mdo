@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bd14f21-08c4-4f5c-afb4-e14c0204ba22">
+  <name>ОбновлениеИнформационнойБазыКонтурМаркировка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление подсистемы Контур.Маркировка</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

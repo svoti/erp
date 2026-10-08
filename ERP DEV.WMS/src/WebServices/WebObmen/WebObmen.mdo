@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bd88af3-d10d-405a-98d4-2b151dc6dabc">
+  <name>WebObmen</name>
+  <synonym>
+    <key>ru</key>
+    <value>Web обмен</value>
+  </synonym>
+  <namespace>Data</namespace>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/core</value>
+  </xdtoPackages>
+  <descriptorFileName>WebObmen.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>120</sessionMaxAge>
+  <operations uuid="5865eec8-6ed8-49b0-9dfa-17ada0000151">
+    <name>ВыполнитьМетод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить метод</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ВыполнитьМетод</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="26d1f143-21d7-49e6-a8e3-c89de1d8b973">
+      <name>ОписаниеМетодаХранилище</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание метода хранилище</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

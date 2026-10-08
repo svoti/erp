@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98ef1b95-5369-4a69-a7a3-bcb58fbd0da5">
+  <name>вмс_ОтборВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>WMS отбор вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

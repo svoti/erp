@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a5b02bd-f6d2-4c1f-b503-91c2eda29712">
+  <name>вмс_НастройкаТоварныхПолей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка товарных полей (WMS)</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+</mdclass:SessionParameter>

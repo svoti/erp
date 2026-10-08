@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a05284e-85bf-486d-a753-b3a87bae1224">
+  <name>УправлениеСкладом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление складом</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.вмс_ОперацияПоЯчейкам</content>
+  <content>InformationRegister.вмс_СтатусыДокументов</content>
+  <content>Report.ВедомостьПоОстаткамПартийТоваров</content>
+  <content>Report.вмс_ДвиженияТоваровВЯчейках</content>
+  <content>Report.вмс_ОтчетПоУчетуОбъемаНаСкладе</content>
+  <content>Report.вмс_СравнениеОстатковС_AS_WMS</content>
+  <content>Report.вмс_ОстаткиТоваровВЯчейках</content>
+  <content>Document.вмс_ВыборочнаяИнвентаризация</content>
+  <content>Report.вмс_ПроизводительностьСклада</content>
+  <content>Catalog.вмс_МониторыСклада</content>
+  <content>Report.вмс_МинимальныеОстаткиБыстрыйДоступ</content>
+  <content>Document.вмс_ЗаданиеКладовщику</content>
+  <content>DataProcessor.вмс_СозданиеЗаданияНаПодпитку</content>
+  <content>5a26480a-6378-44c7-8fb2-2da73a3d6d7c</content>
+  <subsystems>вмс_Локализация</subsystems>
+  <subsystems>вмс_Комплекты</subsystems>
+  <parentSubsystem>Subsystem.вмс_ПодсистемаАдресноеХранение</parentSubsystem>
+</mdclass:Subsystem>

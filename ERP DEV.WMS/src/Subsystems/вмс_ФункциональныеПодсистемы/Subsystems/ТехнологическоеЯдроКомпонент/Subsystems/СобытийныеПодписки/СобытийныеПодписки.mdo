@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a772507-02ac-4f68-b36f-3a4c86c9c7fb">
+  <name>СобытийныеПодписки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Событийные подписки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>a13fd925-7d6a-4043-a3ee-04450fd20aed</content>
+  <content>8665771c-bc32-443f-b405-c05e827959cc</content>
+  <content>EventSubscription.вмс_ПриЗаписиДокумента</content>
+  <content>CommonModule.вмс_ОбработкаПодписокОтменыПроведенияДокументовИС</content>
+  <content>CommonModule.вмс_ОбработкаПодписокПроведенияДокументовИС</content>
+  <parentSubsystem>Subsystem.вмс_ФункциональныеПодсистемы.Subsystem.ТехнологическоеЯдроКомпонент</parentSubsystem>
+</mdclass:Subsystem>

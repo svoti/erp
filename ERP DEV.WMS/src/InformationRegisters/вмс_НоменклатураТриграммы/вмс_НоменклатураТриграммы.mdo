@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce519114-e820-4da3-a1ae-cc9b36f7e3ca">
+  <producedTypes>
+    <selectionType typeId="db254667-3275-4c8c-954d-5559ca46243d" valueTypeId="bef38d94-568d-4167-a44b-0cb5ff3239ee"/>
+    <listType typeId="d0123ca7-f343-46e8-a947-31c12bd7db5a" valueTypeId="46aee5a8-84f9-4659-b1ea-2bed7d5cf4da"/>
+    <managerType typeId="e7334ee0-8fef-4917-a80b-0e2066c14079" valueTypeId="811890e5-cb0a-41af-8a17-f1cfa5837314"/>
+    <recordSetType typeId="a2026430-3271-4b2b-942b-68cfe56105f1" valueTypeId="0433dd61-4159-4981-9226-7572fba037c8"/>
+    <recordKeyType typeId="29eccdba-f63d-47f2-9781-028ba3bd8f9b" valueTypeId="fc962b76-c837-4f62-abd9-ba02c0444103"/>
+    <recordType typeId="e94f771e-a165-4e63-8098-83553eaae7d7" valueTypeId="39e01649-e090-4615-94ba-f7f8d42268f8"/>
+    <recordManagerType typeId="9c2423a5-6f04-41db-9013-3743c7051ec8" valueTypeId="dd817523-b528-4110-a58f-29da8795bf81"/>
+  </producedTypes>
+  <name>вмс_НоменклатураТриграммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Триграммы номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.вмс_НоменклатураТриграммы.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="856a5c4b-c0d3-4320-a4dc-44ced3af152d">
+    <name>Конкатенация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конкатенация</value>
+    </synonym>
+    <comment>Длина строки рассчитана в результате сложения длины наименования (100), код (11), артикул (50)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>161</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <dimensions uuid="b8c1ba75-ca2c-4eed-8e5f-037d390452f6">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="31368556-7f0b-4489-a496-69e74b44b1fd">
+    <name>Триграмм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Триграмм</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="484dbee4-2516-45ce-ba80-44be6a30bdfb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

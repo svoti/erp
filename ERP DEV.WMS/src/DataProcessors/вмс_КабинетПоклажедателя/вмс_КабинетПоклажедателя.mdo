@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="776b436f-e68c-4aff-8046-ba45be9bf7f4">
+  <producedTypes>
+    <objectType typeId="48312eab-acd7-4f9f-91f9-83c9f9b9d556" valueTypeId="88c67183-6dad-4449-89d5-c38220f7be37"/>
+    <managerType typeId="db4e80a8-7ec9-418b-a265-280f98833ca1" valueTypeId="5584d12f-686c-4034-a9fa-a0bf9b2a797c"/>
+  </producedTypes>
+  <name>вмс_КабинетПоклажедателя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кабинет поклажедателя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.вмс_КабинетПоклажедателя.Form.ФормаРабочееМестоПоклажедателя</defaultForm>
+  <forms uuid="dbf5d7ac-26d7-4e99-8b63-c7c68793151e">
+    <name>ФормаРабочееМестоПоклажедателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма рабочее место поклажедателя</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2ff42757-a4ab-4824-9f9d-081794c47cf2">
+    <name>ФормаСозданияНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма создания номенклатуры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c1a54c65-ee37-4a22-b610-9e98d97230cf">
+    <name>ФормаСпискаТоваровПоклажедателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка товаров поклажедателя</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="db0197e8-9341-40a4-ac4d-66502ba28b63">
+    <name>ФормаЗагрузкиТоваровИзЕксель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма загрузки товаров из ексель</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e3aec307-4610-495b-9058-e4fdc866a3df">
+    <name>ФормаСпискаРаспоряжений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка распоряжений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

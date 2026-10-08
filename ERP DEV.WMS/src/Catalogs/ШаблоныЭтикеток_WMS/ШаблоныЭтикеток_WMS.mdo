@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3f915af-c1db-458c-8e12-0d227b1fdc71">
+  <producedTypes>
+    <objectType typeId="a5d2bf38-3340-4777-b4e1-8fcc039fb7ea" valueTypeId="001d87c5-7414-496a-8564-cd135f7849b0"/>
+    <refType typeId="a665c16f-2722-4412-9165-9c956db37697" valueTypeId="e799f009-61d2-4ba7-aea9-e11cb52ee88e"/>
+    <selectionType typeId="3e060047-2887-436f-8b65-2e5d4e1407e1" valueTypeId="754870fe-eeac-438d-bac8-9f36946dc9c3"/>
+    <listType typeId="60daf7f2-99e5-43c7-80a4-d9949e17402a" valueTypeId="31b44850-455a-43d5-9bf1-bad75b6b80f4"/>
+    <managerType typeId="a3e67f91-dd73-4694-9de9-61248c557676" valueTypeId="e119b638-a86c-443f-9beb-b8415e9cbff4"/>
+  </producedTypes>
+  <name>ШаблоныЭтикеток_WMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны этикеток</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ШаблоныЭтикеток_WMS.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ШаблоныЭтикеток_WMS.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ШаблоныЭтикеток_WMS.Form.ФормаРедактированияШаблона</defaultObjectForm>
+  <defaultListForm>Catalog.ШаблоныЭтикеток_WMS.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="d49baada-d61f-4776-adc3-a30d9178286a">
+    <name>ШаблонЭтикетки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон этикетки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bee57ff5-f311-402f-9949-6d8153e85a76">
+    <name>ВысотаЭтикетки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота этикетки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>40</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="71dcfdcb-37e9-44f0-8945-267955f8b757">
+    <name>ШиринаЭтикетки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ширина этикетки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>40</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b81882b6-766a-4180-8818-4af5c75fb72f">
+    <name>РазмерЯчейки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер ячейки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>5</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="223d0e45-04fe-48ea-88bb-3f7d53b9c070">
+    <name>ТипКонтейнера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип контейнера</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ТипыКонтейнеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f8046cde-cdbc-4031-91ca-a41012937cf5">
+    <name>ФормаРедактированияШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования шаблона</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5bf15ced-f00b-4d73-b2bb-86bf23aa9753">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c95a619e-a948-4daa-9894-445d83eb86b8">
+    <name>ПредопределенныеЭлементы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенные элементы</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="ac020fc3-1a3f-410f-8dba-5163a4a4a194">
+    <name>ЭталонРазмерыЯчеек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эталон размеры ячеек</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

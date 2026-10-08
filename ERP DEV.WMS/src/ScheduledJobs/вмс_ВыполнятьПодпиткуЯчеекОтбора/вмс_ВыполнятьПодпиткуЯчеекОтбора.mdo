@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14740beb-6ed2-4ea0-aba1-6cd6d7b69c05">
+  <name>вмс_ВыполнятьПодпиткуЯчеекОтбора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнять подпитку ячеек отбора</value>
+  </synonym>
+  <methodName>CommonModule.вмс_ПодпиткаВызовСервера.ВыполнитьПодпиткуНаЯчейках</methodName>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

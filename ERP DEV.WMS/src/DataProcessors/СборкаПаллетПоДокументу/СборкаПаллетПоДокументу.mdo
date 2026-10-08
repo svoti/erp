@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad7a9249-abae-463d-9162-6ef313afb028">
+  <producedTypes>
+    <objectType typeId="be21e250-0831-4d24-b027-45e592fd5717" valueTypeId="37ba363e-959a-4f32-ad01-a47b9dedb6e9"/>
+    <managerType typeId="164ed6c8-3e68-4027-9efb-e6c561269d15" valueTypeId="c2d4a68b-31b1-496a-b011-4a82c53194b8"/>
+  </producedTypes>
+  <name>СборкаПаллетПоДокументу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сборка паллет по документу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СборкаПаллетПоДокументу.Form.Форма</defaultForm>
+  <attributes uuid="f1932e6f-f04f-47fd-9e07-a5e9468a2a7a">
+    <name>Распоряжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распоряжение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="0052593d-b23b-4529-b541-bf1bae304034">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7e074ddc-7479-4cbe-b257-837f5e79ac1d">
+    <name>ФормаВводаКоличества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода количества</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

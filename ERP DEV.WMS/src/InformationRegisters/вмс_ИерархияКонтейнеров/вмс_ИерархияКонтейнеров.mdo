@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88a5563b-695e-43e3-93ed-cb6e8fb04271">
+  <producedTypes>
+    <selectionType typeId="02175856-26ed-460a-97d6-0534674a5524" valueTypeId="56f5940d-5731-475f-8d51-8174ceced4ac"/>
+    <listType typeId="5907f01e-09f6-49f0-accc-3f5a5d255856" valueTypeId="9d504568-0c7f-450b-aa76-1077df736c2d"/>
+    <managerType typeId="041b374e-d2d9-49e5-bef6-d9e1887719ac" valueTypeId="ea4086a3-85f0-4ff8-9318-e0e968226458"/>
+    <recordSetType typeId="67c97bc8-1eb4-4660-9f8d-21035332880a" valueTypeId="ae614172-48b2-48c2-a9c6-ad0fc4b705ed"/>
+    <recordKeyType typeId="731f2373-c476-47b0-8d7c-3f03b9044218" valueTypeId="285943d4-fa78-4af0-8824-87ca2427195f"/>
+    <recordType typeId="efb6b449-8fc2-4aa9-8b87-80860c94c141" valueTypeId="6211ad4a-27da-49d3-b516-e244fe952d1b"/>
+    <recordManagerType typeId="9948e85d-d22b-492c-a044-42d918efa3b5" valueTypeId="f3b2f967-81bf-4f4f-9879-c3831ee87f50"/>
+  </producedTypes>
+  <name>вмс_ИерархияКонтейнеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Иерархия контейнеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="ed84014e-b5a3-4d52-8a0c-5ef7496dabb0">
+    <name>Уровень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уровень иерархии, на котором находится родитель партнера</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="6e8dfdc6-066a-40b7-9269-d2a0a3bf348f">
+    <name>Контейнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контейнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.вмс_Контейнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="377d2d3d-ab0d-4c13-b3d0-1e7008002d94">
+    <name>Родитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.вмс_Контейнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

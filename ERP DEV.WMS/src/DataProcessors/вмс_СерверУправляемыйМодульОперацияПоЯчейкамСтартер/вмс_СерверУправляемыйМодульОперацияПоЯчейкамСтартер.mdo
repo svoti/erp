@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fba96d40-e9db-4df5-b48a-f2cb593fcfbd">
+  <producedTypes>
+    <objectType typeId="72e35001-1dcf-4d58-b475-184ff773db26" valueTypeId="adff624c-3e74-4f74-936c-b00220a9932c"/>
+    <managerType typeId="c3caea5c-cb52-4fdf-9641-a54d29a7dfc8" valueTypeId="2398393b-ba6f-40af-b671-92f44152210d"/>
+  </producedTypes>
+  <name>вмс_СерверУправляемыйМодульОперацияПоЯчейкамСтартер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стартер</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="36aeac95-a9ba-43b0-8fe5-dd7699df7b1d">
+    <name>ПараметрыОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры обработки</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5f1f4556-ca42-4b46-9d9e-cfaf1504d18a">
+    <name>СостояниеОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние обработки</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>

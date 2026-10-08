@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb00cd95-604a-42bc-96ef-85d24c3c9770">
+  <producedTypes>
+    <refType typeId="dccca51f-9302-45b2-b43d-e2613896b397" valueTypeId="16be9c4a-2732-498c-9228-c1c221fd48e4"/>
+    <listType typeId="9dfe3c09-d5ac-481a-bc14-358d8596b07a" valueTypeId="642e1289-5ef1-4fb9-ac8c-fc24c8f88c3c"/>
+    <managerType typeId="ef25f423-30e0-4d17-a3fc-92a874157b5e" valueTypeId="cc3fa6f0-70d5-4f5e-a2ed-c1b12129e489"/>
+  </producedTypes>
+  <name>вмс_ТипыЯчеек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ячеек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы ячеек</value>
+  </listPresentation>
+  <enumValues uuid="64e113ea-0b0e-4860-b453-8e70fc7a5016">
+    <name>ЗонаПриемки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зона приемки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bd694509-353c-4b17-9abc-96b24d0c010c">
+    <name>ЗонаОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зона отгрузки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3f8714de-97fa-48f0-aaff-a73416f0fec8">
+    <name>Хранение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c20ac50a-b1e8-4443-906f-2340cb321986">
+    <name>ЗонаОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зона отбора</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b7c9d6d-a688-490e-88ed-6b7ab21e0836">
+    <name>Карантин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карантин</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c70e62c-06fc-4f40-b892-2c9f9de1f152">
+    <name>ЗонаКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зона контроля</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e89ea63-811f-480c-b5dd-747ff54bc96f">
+    <name>Подпитка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подпитка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="89c32ce9-0849-4838-a48b-e613d8d47efb">
+    <name>Оператор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оператор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cdbcbad6-4911-4aa7-9961-204ace3fbf62">
+    <name>Транзит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транзит</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

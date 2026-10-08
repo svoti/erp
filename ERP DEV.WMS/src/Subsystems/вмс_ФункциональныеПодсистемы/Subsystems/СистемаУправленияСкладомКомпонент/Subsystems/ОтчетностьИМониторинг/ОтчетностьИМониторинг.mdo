@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="818e56ea-f265-42a8-bbab-e2fb09591c2b">
+  <name>ОтчетностьИМониторинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчетность и мониторинг</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.вмс_МониторыСклада</content>
+  <content>Report.вмс_ДвиженияТоваровВЯчейках</content>
+  <content>Report.вмс_МинимальныеОстаткиБыстрыйДоступ</content>
+  <content>Report.вмс_ОстаткиТоваровВЯчейках</content>
+  <content>Report.вмс_ОтчетПоУчетуОбъемаНаСкладе</content>
+  <content>Report.вмс_ПроизводительностьСклада</content>
+  <content>Report.вмс_РезультатыВыборочнойИнвентаризации</content>
+  <content>Report.вмс_СравнениеОстатковС_AS_WMS</content>
+  <content>Report.ВедомостьПоОстаткамПартийТоваров</content>
+  <content>Report.СКДИерархияКонтейнеров</content>
+  <content>DataProcessor.вмс_РабочееМестоОтгрузкиСоСклада</content>
+  <parentSubsystem>Subsystem.вмс_ФункциональныеПодсистемы.Subsystem.СистемаУправленияСкладомКомпонент</parentSubsystem>
+</mdclass:Subsystem>

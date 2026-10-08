@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d836ecc-2858-42d3-a190-c605db30e0f2">
+  <name>вмс_СервисноеОбслуживание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервисное обслуживание</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

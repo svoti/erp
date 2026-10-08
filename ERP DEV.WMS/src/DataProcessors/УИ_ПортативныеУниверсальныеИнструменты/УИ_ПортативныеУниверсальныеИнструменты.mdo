@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fdb5c29-d39f-4bec-adfc-66b63f5cd87d">
+  <producedTypes>
+    <objectType typeId="219ad4c0-c116-4340-9ec0-7d480d60b1cc" valueTypeId="937dadcc-e42a-4ed4-878c-e98f9678bde1"/>
+    <managerType typeId="fa0539a1-0011-4b58-99d9-6f50c9aa52b1" valueTypeId="a1161f3f-3483-4c37-8b74-b4d3a90d4648"/>
+  </producedTypes>
+  <name>УИ_ПортативныеУниверсальныеИнструменты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Портативные универсальные инструменты (ТУ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УИ_ПортативныеУниверсальныеИнструменты.Form.Форма</defaultForm>
+  <forms uuid="8fe021fc-4762-4115-8189-53aa69549700">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0d1b7eb1-d912-492f-8869-c9f05879021b">
+    <name>УИ_ФормаРедактированияСпискаЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования списка значений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f1de2872-2414-4a25-9026-88291e4a3fbd">
+    <name>УИ_РедактированиеТипаЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование типа значения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

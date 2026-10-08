@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f480aa7-9177-4d4d-af3a-a96b07c803f4">
+  <producedTypes>
+    <objectType typeId="32d39f1f-9b84-475b-86f5-7e17790de3f6" valueTypeId="a319d209-ffb9-44cd-9d98-5e3184c87a57"/>
+    <refType typeId="d223f9d1-056e-4453-8913-3e2b115cd65e" valueTypeId="741560fb-3745-435a-9d8b-f73c5d34a042"/>
+    <selectionType typeId="def6f6de-9ad3-4cef-a7a4-6106bf05def3" valueTypeId="83697f8a-d573-410a-9c20-8a72483f7a9d"/>
+    <listType typeId="75237b0c-4936-4544-af07-916988369386" valueTypeId="1d626b2b-cd2f-412d-82f5-9434825dafa7"/>
+    <managerType typeId="a159ae53-607e-4e6d-8a15-e4f4eaf38b7d" valueTypeId="4b685cee-39c4-494b-a34e-c7d00a17c5ee"/>
+  </producedTypes>
+  <name>КатегорииЯчеекХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории мест хранения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КатегорииЯчеекХранения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КатегорииЯчеекХранения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

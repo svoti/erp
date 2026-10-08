@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0cd5ff6-0413-47df-8689-6ad6f8341f51">
+  <producedTypes>
+    <objectType typeId="665c1f3e-a87d-45d5-aafd-98b7a755d381" valueTypeId="8dc3b9c1-ef05-41e2-88fb-cfa2a8be18cb"/>
+    <managerType typeId="71257429-b79c-4673-9044-d8df300d7145" valueTypeId="a41c0140-f6b4-45fa-8091-f08dfe04acd9"/>
+  </producedTypes>
+  <name>вмс_ВыполнениеЗаданийКладовщику</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение складских заданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.вмс_ВыполнениеЗаданийКладовщику.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="287f6d04-7414-41ed-bb69-ed6351fb7116">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

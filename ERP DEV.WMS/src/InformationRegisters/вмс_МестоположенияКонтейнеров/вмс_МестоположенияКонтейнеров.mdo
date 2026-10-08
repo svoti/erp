@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cefbfef2-f32e-496c-8d78-52ce2e186bee">
+  <producedTypes>
+    <selectionType typeId="abdd84c1-a693-4f87-b214-3da309c30b98" valueTypeId="47f3dd16-e699-4e5d-9c2c-dc10ff9311eb"/>
+    <listType typeId="ef6838e3-52ef-4b79-8fe0-f3f939fe231f" valueTypeId="ea94c7a6-7390-4bd2-9a93-3f7b430837a9"/>
+    <managerType typeId="cebf135f-ffd7-4426-99cd-1f20c46b4f07" valueTypeId="3a2615a9-daa3-43c8-bb2e-9a72f261c86f"/>
+    <recordSetType typeId="ef0cb33a-26c3-4cda-9646-4e851ce71b9d" valueTypeId="12d5b860-de9c-4674-a397-8e99364e22bc"/>
+    <recordKeyType typeId="2a535ec8-743b-46ff-9683-73d405abdf77" valueTypeId="14a64539-3fd6-428e-aa6a-945dcfc5b707"/>
+    <recordType typeId="01175ad3-b39f-4854-9e0d-c63a0a302dfe" valueTypeId="2bc520a8-6333-4364-944f-f4c3510370ba"/>
+    <recordManagerType typeId="0efd5018-3692-4dfe-bfd0-d70c8cd01747" valueTypeId="0b643765-fe6f-4d4d-8664-ef15591c1a3b"/>
+  </producedTypes>
+  <name>вмс_МестоположенияКонтейнеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Местоположения контейнеров (ВМС)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="45dd464b-5662-4e90-8b5f-408aa04df050">
+    <name>КонтейнерРодитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контейнер родитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.вмс_Контейнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f8a2916a-eb17-4665-8aa1-9298ed046018">
+    <name>КонтейнерОстатковВЯчейках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контейнер остатков в ячейках</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.вмс_Контейнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d2012be6-29da-4a62-8f92-ad8f13be7586">
+    <name>Ячейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ячейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.вмс_МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6c911a5c-d5fe-4c38-90d1-96f0022d128b">
+    <name>Контейнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контейнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.вмс_Контейнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7eb23b2e-d5d8-444a-896b-4790ecf6d8a6">
+  <producedTypes>
+    <objectType typeId="7d9d9e8f-e662-4ab4-8dae-eabcd47da5f0" valueTypeId="60765cff-8ac4-4daf-9d23-6453e49dd64a"/>
+    <refType typeId="0413b927-b435-4e40-a534-464351414175" valueTypeId="75d3a08b-7bd8-4ed7-b7d4-de6cb28bfcbe"/>
+    <selectionType typeId="99eca6a9-64e1-488a-a5aa-19aa70f2050f" valueTypeId="712622d9-bdf9-4df2-ad81-58d3d467ed15"/>
+    <listType typeId="389c51d4-7f7e-40c9-a9ad-2a87c4370f24" valueTypeId="578291f1-ae6e-4e42-86ff-4108f8c8a553"/>
+    <managerType typeId="b9461d39-297c-401f-85e5-6e9c188ede5a" valueTypeId="5ad277d8-769b-4592-90a0-fbe2b913afa1"/>
+  </producedTypes>
+  <name>вмс_СтатусыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.вмс_СтатусыДокументов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.вмс_СтатусыДокументов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="41003a85-0585-449a-ae21-6e6ff9ff4e3b">
+    <name>ПредопределенныеЭлементы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенные элементы</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Catalog>

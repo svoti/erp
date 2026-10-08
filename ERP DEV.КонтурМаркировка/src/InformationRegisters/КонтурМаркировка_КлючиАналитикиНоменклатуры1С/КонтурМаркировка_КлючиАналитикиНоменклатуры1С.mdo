@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3d33a1f-8e09-44cd-9044-78ffc7ad64c8">
+  <producedTypes>
+    <selectionType typeId="c2511a11-2e27-4b68-abf8-f9433a3b445b" valueTypeId="640b18bf-6042-4a01-80af-ba736ec50871"/>
+    <listType typeId="6702b343-8f15-4042-a415-b1b89f0fc9fa" valueTypeId="1580f581-33b6-4482-9ac8-140bbe482af0"/>
+    <managerType typeId="ad1bade9-e622-4020-87b5-959b0556aba6" valueTypeId="b9d3271c-e403-464e-9caa-176c8c55ecac"/>
+    <recordSetType typeId="ac8c7c64-eaa5-476c-8603-d7dd60c1e5a5" valueTypeId="d55a439d-1dc1-4c70-b7a9-cf6313161316"/>
+    <recordKeyType typeId="00639e3b-1b42-497e-9dfc-fdd441454366" valueTypeId="816ed7f3-882d-4b8d-b501-fec4f984797b"/>
+    <recordType typeId="7bf7e698-8c73-4947-8c77-f57e752709f7" valueTypeId="133d7b8b-e66e-49ef-b2ff-150f5a7f2c9e"/>
+    <recordManagerType typeId="aafe00cf-9cfb-4204-9659-dbd6ace0ff47" valueTypeId="452796f9-83ee-41f0-b209-3d0e949b49f6"/>
+  </producedTypes>
+  <name>КонтурМаркировка_КлючиАналитикиНоменклатуры1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключи аналитики номенклатуры 1С (Контур.Маркировка)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="45146425-e9a1-4b12-8fad-d55b9f07c5d6">
+    <name>КлючНоменклатуры1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ номенклатуры 1С</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтурМаркировка_КлючиНоменклатуры1С</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="7ca2f92f-bdb3-4a38-90e2-a60191dd30f8">
+    <name>ТипКлючаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ключа номенклатуры</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0ff0e51e-a1f0-4c50-90d5-c1ee0f560f0d">
+    <name>ТипКлючаХарактеристики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ключа характеристики</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="69bf0955-e3ab-4c52-9f5a-74c16a05955b">
+    <name>ТипКлючаУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ключа упаковки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b9051997-6445-4797-8019-ea5316e1e177">
+    <name>ТипКлючаСерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ключа серии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="3a6e77da-4aba-4ea4-95e7-ef366a53960e">
+    <name>КлючНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ номенклатуры</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="67e622d0-30f2-4d36-b318-b9750bd09400">
+    <name>КлючХарактеристики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ характеристики</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b7ea3223-6b6f-4c7c-ac6f-269cb22512a4">
+    <name>КлючУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ упаковки</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="811e24b3-f030-4d4b-a98a-c3f0b2842889">
+    <name>КлючСерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ серии</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

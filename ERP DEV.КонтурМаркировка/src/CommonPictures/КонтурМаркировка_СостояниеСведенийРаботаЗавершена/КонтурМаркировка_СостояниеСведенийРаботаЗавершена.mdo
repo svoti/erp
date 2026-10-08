@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84cce820-d47a-4f68-af8e-62d05851bbb8">
+  <name>КонтурМаркировка_СостояниеСведенийРаботаЗавершена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние сведений работа завершена (Контур.Маркировка)</value>
+  </synonym>
+</mdclass:CommonPicture>

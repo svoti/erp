@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="180d4bda-748f-463c-b606-136c8c6e0ed1">
+  <name>вмс_АдресХранилищаСостоянийСерверУправляемыхОбработок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес хранилища состояний сервер управляемых обработок</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+</mdclass:SessionParameter>

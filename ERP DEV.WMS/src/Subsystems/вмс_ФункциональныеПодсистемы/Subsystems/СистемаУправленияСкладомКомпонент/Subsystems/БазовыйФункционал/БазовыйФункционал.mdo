@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3787e3c8-c3cd-48c0-b72b-93b6a0143a40">
+  <name>БазовыйФункционал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовый функционал</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Основная часть компонента адресного хранения: Учет товаров в разрезе мест хранения
+</value>
+  </explanation>
+  <content>AccumulationRegister.вмс_ОперацияПоЯчейкам</content>
+  <content>Document.вмс_ОперацияПоЯчейкам</content>
+  <content>CommonModule.вмс_ОперацииПоЯчейкамСервер</content>
+  <content>CommonModule.вмс_ОперацииПоЯчейкамКлиентСерверПовтИсп</content>
+  <content>CommonModule.вмс_ОперацииПоЯчейкамКлиентСервер</content>
+  <content>CommonModule.вмс_ОперацииПоЯчейкамКлиент</content>
+  <content>CommonModule.вмс_ОперацииПоЯчейкамВызовСервера</content>
+  <content>CommonModule.вмс_Размещение</content>
+  <content>CommonModule.вмс_РазмещениеСервер</content>
+  <content>CommonModule.вмс_ОтборСервер</content>
+  <content>CommonModule.вмс_ОтборВызовСервера</content>
+  <content>CommonModule.вмс_СерииТоваровСервер</content>
+  <content>CommonModule.вмс_СкладыВызовСервера</content>
+  <content>CommonModule.вмс_УправлениеРаспоряжениями</content>
+  <content>Document.вмс_ВыборочнаяИнвентаризация</content>
+  <content>Document.вмс_ЗаданиеКладовщику</content>
+  <content>Document.вмс_ПотребностьКомплектов</content>
+  <content>Document.вмс_ПроверкаКомплектности</content>
+  <content>Document.вмс_РасхожденияПриПриемкеИОтборе</content>
+  <content>Document.вмс_СводныйДокумент</content>
+  <content>Enum.вмс_КачествоТовара</content>
+  <content>Enum.вмс_СкладскиеПотоки</content>
+  <content>Enum.вмс_СостояниеМаркировки</content>
+  <content>ChartOfCharacteristicTypes.вмс_ПричиныРасхождений</content>
+  <content>InformationRegister.вмс_РегистрацияИзмененийОпераций</content>
+  <content>InformationRegister.вмс_РеестрОстаточныхСроковГодности</content>
+  <content>InformationRegister.вмс_СвязанныеДокументы</content>
+  <content>InformationRegister.вмс_СостояниеМаркировки</content>
+  <content>InformationRegister.ШтрихкодыКонтрагентов</content>
+  <parentSubsystem>Subsystem.вмс_ФункциональныеПодсистемы.Subsystem.СистемаУправленияСкладомКомпонент</parentSubsystem>
+</mdclass:Subsystem>

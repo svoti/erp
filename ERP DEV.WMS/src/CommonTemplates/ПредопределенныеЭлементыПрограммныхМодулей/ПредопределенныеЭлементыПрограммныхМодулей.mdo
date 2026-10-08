@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8ec38c0-e80f-41b3-a761-fa959aec930c">
+  <name>ПредопределенныеЭлементыПрограммныхМодулей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предопределенные элементы программных модулей</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

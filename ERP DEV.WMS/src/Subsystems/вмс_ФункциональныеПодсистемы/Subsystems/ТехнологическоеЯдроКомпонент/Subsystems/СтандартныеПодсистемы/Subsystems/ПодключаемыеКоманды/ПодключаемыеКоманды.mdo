@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e7abb77-5328-42b1-904f-601e2ff672fb">
+  <name>ПодключаемыеКоманды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключаемые команды</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.вмс_ПодключаемыеКоманды</content>
+  <content>CommonModule.вмс_ПодключаемыеКомандыКлиент</content>
+  <content>CommonModule.вмс_ПодключаемыеКомандыКлиентСервер</content>
+  <content>4be37c57-56a7-4b18-af4b-c2652dbc4f25</content>
+  <content>Catalog.ВидыНоменклатуры</content>
+  <parentSubsystem>Subsystem.вмс_ФункциональныеПодсистемы.Subsystem.ТехнологическоеЯдроКомпонент.Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

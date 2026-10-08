@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bb44c76-a10d-4f49-bc8e-10d50326a009">
+  <producedTypes>
+    <refType typeId="03a00806-bf61-411a-ab7a-a80d105fb5b1" valueTypeId="d1395a82-c0e1-47ec-a4b6-39c5b3822634"/>
+    <listType typeId="77a3cec0-5f71-40fe-a8ac-8c37733b4a85" valueTypeId="28b0fd4b-28f8-41fc-a6ea-d092febdb093"/>
+    <managerType typeId="a35f8abb-20ca-489d-be95-cbad82df3d81" valueTypeId="35ec82c6-62d1-44a2-92f8-b1b29cf546e4"/>
+  </producedTypes>
+  <name>вмс_ТипыСистемШтрихкодирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы систем штрихкодирования</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="055dc7a2-bb9d-4ab7-9acd-547f2759d133">
+    <name>ЧерезКлавиатуруИГорячиеКлавиши</name>
+    <synonym>
+      <key>ru</key>
+      <value>Через клавиатуру и горячие клавиши</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ed17bd5a-4e2c-446c-ab92-01a27b12287b">
+    <name>ЧерезДрайвер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Через драйвер</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

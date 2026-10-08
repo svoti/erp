@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fe6629d-bfd9-4779-96d5-0b847b5cebfa">
+  <producedTypes>
+    <selectionType typeId="a7abab28-5559-4d2d-881b-c847eb80e877" valueTypeId="243fdc60-d5b3-4fd9-8077-86712294679f"/>
+    <listType typeId="6478a033-9829-44aa-aef0-17262be56a5b" valueTypeId="9219fe38-45e5-4f41-bf1c-03d507f7724d"/>
+    <managerType typeId="623167c4-0858-4853-ad5a-da3fe0538ddb" valueTypeId="c57cad79-62fb-482f-8465-d2b3b3b7f38e"/>
+    <recordSetType typeId="8c97ce58-d724-40e2-8acd-0cdeee0f2811" valueTypeId="66098afc-fb30-4d40-a06c-d91c90d117d2"/>
+    <recordKeyType typeId="8253545a-9e21-48f8-a2ba-2d962cf68914" valueTypeId="c0f0f566-5642-43ba-819c-1310440c5641"/>
+    <recordType typeId="7bd405f5-56fe-49a3-b972-87b96af124b7" valueTypeId="f0246f2e-123c-4e51-ba75-2de6b765526e"/>
+    <recordManagerType typeId="804b7c28-4a36-4324-9976-8d32b46160ca" valueTypeId="151780f6-85dc-416e-80e8-ee62f466599d"/>
+  </producedTypes>
+  <name>КонтурМаркировка_КодыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коды документов (Контур.Маркировка)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="ed8c5b0f-3b66-4042-983d-9219095b98da">
+    <name>КлючПроверкиКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ проверки кода</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="553a0d0d-7a87-4049-8b83-264c41d1f664">
+    <name>ДокументУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ учета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтурМаркировка_ДокументыУчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7e6996f6-ca37-45e7-87db-ec493e2c1739">
+    <name>КлючСтрокиДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ строки документа</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="05e999f6-39fc-4e9e-9342-4e936c873b23">
+    <name>КлючКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ кода</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

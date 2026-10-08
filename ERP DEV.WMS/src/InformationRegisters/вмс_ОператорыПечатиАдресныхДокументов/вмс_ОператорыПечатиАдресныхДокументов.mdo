@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f4c1b98-04ee-49dd-a29d-c76525948fb8">
+  <producedTypes>
+    <selectionType typeId="db128901-d120-4536-b8f4-135a95bfed3d" valueTypeId="376bc76a-41ca-4d90-9167-7c4930482aa8"/>
+    <listType typeId="dc14c209-757d-4e03-8568-104f14d91260" valueTypeId="e85bfb4a-ff78-444f-a8a0-9f8f4d0e1105"/>
+    <managerType typeId="0d5c1fc0-ee91-4264-8a51-956b7f0a2dab" valueTypeId="36905617-3c7f-42fe-9d69-2954fa4f1c6d"/>
+    <recordSetType typeId="807e2d1b-b276-40cc-a00b-5ee4fa7a3087" valueTypeId="c2a1f2b1-6d3c-4ff8-99d9-29b411907eb9"/>
+    <recordKeyType typeId="b27af70e-edf0-44ca-aa87-a21bcb556d3c" valueTypeId="b5bd4f18-2248-4fd0-901a-4bdcb97f9994"/>
+    <recordType typeId="45e7f8bf-605f-4b02-a379-25400cdd74a7" valueTypeId="9cb92f22-faa8-4f05-92a8-45d1898ee463"/>
+    <recordManagerType typeId="f1282e0b-f518-4dc6-ac28-6ec1e8b9a932" valueTypeId="9ad5f0bb-6543-4654-a93f-b6028fd8ecab"/>
+  </producedTypes>
+  <name>вмс_ОператорыПечатиАдресныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операторы печати адресных документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Оператор печати</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Оператор печати складских документов</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Операторы печати адресных документов</value>
+  </listPresentation>
+  <dimensions uuid="5f12a9bf-c675-4b30-9e2e-46c6eccb0a5a">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

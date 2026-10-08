@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67ced7c9-ed15-458b-be6b-266062e6720c">
+  <producedTypes>
+    <objectType typeId="75a486a2-8fbc-4159-8521-55a3c1b666df" valueTypeId="87ba173c-8ff4-45ac-bfdc-f76b4fe686d7"/>
+    <managerType typeId="0ab62888-465d-4c83-994e-2e3150e1c385" valueTypeId="5d9fbd70-0d56-4304-a68b-efd72ea36e1b"/>
+  </producedTypes>
+  <name>вмс_СерверУправляемыйМодульОперацияПоЯчейкамПрисвоениеШтрихкода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Присвоение штрихкода</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="a13189e3-679c-423e-98f1-111105762317">
+    <name>ПараметрыОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры обработки</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5e14be0d-4f8f-4b42-ac04-2c908b15655a">
+    <name>ДанныеОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные обработки</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ee4965f8-2366-4940-9cac-95c53e52ec79">
+    <name>СостояниеОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние обработки</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="83c02e57-cdd6-4fcb-ba67-bbf5f76e799e">
+    <name>ПараметрыМодуля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры модуля</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e8c02714-90f8-4f4b-a821-8522de0a2811">
+    <name>ДанныеМодуля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные модуля</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cc1ce697-f23c-4981-918c-159d28c60c9e">
+    <name>СостояниеМодуля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние модуля</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="53537d73-8b84-4f59-b98c-ba024679cc49">
+    <name>СтандартныйМодуль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартный модуль</value>
+    </synonym>
+    <type>
+      <types>DataProcessorObject.вмс_СерверУправляемыйМодульСтандартный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ef2cad6-3410-4569-89b2-3fc127caf7ea">
+  <name>вмс_АнализироватьABC</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализировать ABC</value>
+  </synonym>
+  <methodName>CommonModule.вмс_ПолучениеДанныхABCАнализаСервер.вмс_АнализироватьABC</methodName>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a45e5c1-2462-49b3-a1cb-d63a0b2e9ca8">
+  <producedTypes>
+    <selectionType typeId="367fd696-18ae-44d1-81a3-09f4678929fe" valueTypeId="a74cc540-4a5d-4512-80ce-495a8ee7a365"/>
+    <listType typeId="57c12b21-0498-48ab-b30e-99cf4a655504" valueTypeId="3fccdfe2-ca88-42d1-88d6-a03a2759b053"/>
+    <managerType typeId="e784a4e0-7cf5-4aea-9529-e6be5dc1565f" valueTypeId="202603ca-9f6b-48ef-873b-1d0b0f88e516"/>
+    <recordSetType typeId="fe4a6696-aa4f-4580-9761-00ae19268e63" valueTypeId="a425964f-1429-435b-8f56-2adaf07b2718"/>
+    <recordKeyType typeId="98a635fc-c345-40ba-93a2-aa9258fc9ec3" valueTypeId="78079e10-d8d2-434c-9986-fa55a04e3b6d"/>
+    <recordType typeId="bf3562af-30ea-47ca-8bd1-12e5354d5450" valueTypeId="28b27a67-e223-47e3-bfb9-3d31d006bd8b"/>
+    <recordManagerType typeId="462d103b-16dc-4f87-889b-fff7f95e7058" valueTypeId="2b05ea6b-6138-4836-8887-2e0be8d5161c"/>
+  </producedTypes>
+  <name>вмс_ЗаблокированныеЯчейки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заблокированные ячейки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="726ad417-95aa-4836-b3ad-028732f310b4">
+    <name>ВидБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид блокировки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.вмс_ВидыБлокировокЯчеек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="99f60514-6d65-477e-ae3c-31adec1ce506">
+    <name>Ячейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ячейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.вмс_МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8c23299a-905b-4d43-8c53-7bce3497c6a0">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник блокировки</value>
+    </synonym>
+    <type>
+      <types>Characteristic.вмс_СоответствиеМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

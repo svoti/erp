@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4921999d-a86c-4adb-af2d-af92651198d0">
+  <name>вмс_ИндексированиеКоллекций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Индексирование коллекций</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+</mdclass:CommonModule>

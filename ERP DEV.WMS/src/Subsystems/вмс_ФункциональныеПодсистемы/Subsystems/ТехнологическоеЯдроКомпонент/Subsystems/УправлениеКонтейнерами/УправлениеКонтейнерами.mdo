@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f74ae9d-9773-4818-b857-601dac448f7e">
+  <name>УправлениеКонтейнерами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление контейнерами</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>ChartOfCharacteristicTypes.ТипыКонтейнеров</content>
+  <content>InformationRegister.вмс_ИерархияКонтейнеров</content>
+  <content>InformationRegister.вмс_ИсторияИерархииКонтейнеров</content>
+  <content>AccumulationRegister.вмс_ОстаткиВКонтейнерах</content>
+  <content>Report.СКДИерархияКонтейнеров</content>
+  <content>Report.ВедомостьПоОстаткамПартийТоваров</content>
+  <content>Catalog.вмс_Контейнеры</content>
+  <content>Catalog.вмс_ВидыПартийТоваров</content>
+  <content>CommonModule.вмс_ПартионныйУчетСервер</content>
+  <content>CommonModule.вмс_УправлениеОстатками</content>
+  <content>7d4726e6-6d6d-4e41-8fe7-fb17d50ed05f</content>
+  <content>DataProcessor.вмс_ЗащищенныйМодуль</content>
+  <content>Catalog.ШаблоныЭтикеток_WMS</content>
+  <parentSubsystem>Subsystem.вмс_ФункциональныеПодсистемы.Subsystem.ТехнологическоеЯдроКомпонент</parentSubsystem>
+</mdclass:Subsystem>

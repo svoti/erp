@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a73085e-b5a3-4023-b5c0-67fe2ae38355">
+  <producedTypes>
+    <objectType typeId="9d76f842-dbbd-4301-bf10-aa3288c1be34" valueTypeId="1e0affc0-8d5a-40ac-920d-69d0c08ca0f0"/>
+    <managerType typeId="40f9881d-4dfd-4426-8f82-6694971500e9" valueTypeId="2cfd8b04-3711-4fa4-9f55-37f021b72c97"/>
+  </producedTypes>
+  <name>вмс_ДвиженияДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения документа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.вмс_ДвиженияДокумента.Form.ДвиженияДокумента</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="c9fe189d-6f3f-4845-9ded-ce864cc90740">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d9b3fa21-4c9c-4d30-9fef-aed5c09dc967">
+    <name>ДвиженияДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движения документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a5d02e30-21f5-47a2-bf14-5f79b17c2bf3">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="86138c28-2ec3-4b0f-8ba7-8630eb1ce977">
+    <name>МакетЖурналПроводок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет журнал проводок</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

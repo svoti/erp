@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="708ef911-c177-44e9-9810-9853073c9cc6">
+  <producedTypes>
+    <objectType typeId="9ae8f710-877f-4767-bc92-5f7f6d809627" valueTypeId="3c01aa74-058b-4478-94fb-336fb84262a2"/>
+    <managerType typeId="7535f158-d8a3-44a9-aa2f-06ddaee5a559" valueTypeId="fc2bb583-11bd-48ae-8895-08ba78b6501a"/>
+  </producedTypes>
+  <name>вмс_РезультатыВыборочнойИнвентаризации</name>
+  <synonym>
+    <key>ru</key>
+    <value>WMS результаты выборочной инвентаризации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.вмс_РезультатыВыборочнойИнвентаризации.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="5f5d041f-a2dd-49cd-8147-c859b2c8bfab">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

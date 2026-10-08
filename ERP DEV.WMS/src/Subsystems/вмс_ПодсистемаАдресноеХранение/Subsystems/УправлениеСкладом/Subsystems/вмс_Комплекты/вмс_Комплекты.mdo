@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94b8c061-bcaf-4cdf-9d59-26529661a876">
+  <name>вмс_Комплекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комплекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.вмс_ПотребностьКомплектов</content>
+  <content>Document.вмс_ПроверкаКомплектности</content>
+  <content>InformationRegister.вмс_СоставыКомплектов</content>
+  <parentSubsystem>Subsystem.вмс_ПодсистемаАдресноеХранение.Subsystem.УправлениеСкладом</parentSubsystem>
+</mdclass:Subsystem>

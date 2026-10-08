@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3a1e2ea-ae60-4fa8-b447-f51152acc661">
+  <name>вмс_НастройкиВыполненияЗаданияКладовщику</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки выполнения задания кладовщику</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+</mdclass:CommonModule>
