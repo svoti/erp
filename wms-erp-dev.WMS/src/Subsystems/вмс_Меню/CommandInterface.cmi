@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.вмс_ГлавноеМеню.StandardCommand.Open</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <value>true</value>
+          <role>Role.вмс_ОсновнаяРоль_ПолныеПрава</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.вмс_ОсновнаяРоль_ИнтерактивноеНазначение</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+</cmi:CommandInterface>
