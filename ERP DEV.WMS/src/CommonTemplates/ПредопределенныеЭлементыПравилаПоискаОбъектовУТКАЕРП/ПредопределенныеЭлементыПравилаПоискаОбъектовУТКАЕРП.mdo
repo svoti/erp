@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c71532c-abec-4f1f-8f58-d531b38392a8">
-  <name>ПредопределенныеЭлементыПравилаПоискаОбъектовУТКАЕРП</name>
-  <synonym>
-    <key>ru</key>
-    <value>Предопределенные элементы правила поиска объектов УТКАЕРП</value>
-  </synonym>
-  <templateType>BinaryData</templateType>
-</mdclass:CommonTemplate>

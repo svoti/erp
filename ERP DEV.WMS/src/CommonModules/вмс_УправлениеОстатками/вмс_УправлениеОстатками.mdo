@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="945e2668-cef9-4eb3-8b86-88be1f6bcb63">
-  <name>вмс_УправлениеОстатками</name>
-  <synonym>
-    <key>ru</key>
-    <value>WMS управление остатками</value>
-  </synonym>
-  <server>true</server>
-</mdclass:CommonModule>

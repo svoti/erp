@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c15976b5-815b-4b1f-a1d9-77858d4d39ee">
-  <name>вмс_ПолучениеДереваОбработчиковОбновления_УТ103</name>
-  <synonym>
-    <key>ru</key>
-    <value>WMS получение дерева обработчиков обновления УТ 10.3</value>
-  </synonym>
-  <templateType>DataCompositionSchema</templateType>
-</mdclass:CommonTemplate>

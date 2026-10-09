@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cabdb632-6880-43b0-be53-37ff5e504502">
-  <name>вмс_ОбработкаШтрихкодовКлиент</name>
-  <synonym>
-    <key>ru</key>
-    <value>WMS обработка штрихкодов клиент</value>
-  </synonym>
-  <clientManagedApplication>true</clientManagedApplication>
-</mdclass:CommonModule>

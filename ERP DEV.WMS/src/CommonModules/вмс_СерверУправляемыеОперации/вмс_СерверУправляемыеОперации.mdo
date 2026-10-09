@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="784fb775-0c1a-4b09-b928-7a946f33a9ff">
-  <name>вмс_СерверУправляемыеОперации</name>
-  <synonym>
-    <key>ru</key>
-    <value>Сервер управляемые операции</value>
-  </synonym>
-  <server>true</server>
-</mdclass:CommonModule>

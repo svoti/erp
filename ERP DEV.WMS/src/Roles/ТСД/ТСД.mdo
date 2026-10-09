@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5e32ef1-f590-45ee-a47c-18f2cbd4067d">
-  <name>ТСД</name>
-  <synonym>
-    <key>ru</key>
-    <value>ТСД</value>
-  </synonym>
-</mdclass:Role>

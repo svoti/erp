@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09349d8a-7a6c-473d-ab46-2cbd2889866d">
-  <name>КомпонентаСетевойПечати_x64</name>
-  <synonym>
-    <key>ru</key>
-    <value>Компонента сетевой печати x64</value>
-  </synonym>
-  <templateType>AddIn</templateType>
-</mdclass:CommonTemplate>

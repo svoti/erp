@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73a44e14-ffe5-4b05-9204-87f8f435685b">
-  <name>Эталон</name>
-  <synonym>
-    <key>ru</key>
-    <value>Эталон</value>
-  </synonym>
-</mdclass:CommonTemplate>

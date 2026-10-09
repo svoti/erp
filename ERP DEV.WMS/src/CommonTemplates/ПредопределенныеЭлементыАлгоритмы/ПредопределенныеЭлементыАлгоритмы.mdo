@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6801c4b1-0925-44ad-8e77-9bc5eaeb9baf">
-  <name>ПредопределенныеЭлементыАлгоритмы</name>
-  <synonym>
-    <key>ru</key>
-    <value>Предопределенные элементы алгоритмы</value>
-  </synonym>
-  <templateType>TextDocument</templateType>
-</mdclass:CommonTemplate>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af3c9b71-ba70-4c19-9991-d87db80e537e">
-  <name>вмс_УправлениеСвойствамиКлиент</name>
-  <synonym>
-    <key>ru</key>
-    <value>WMS управление свойствами клиент</value>
-  </synonym>
-  <clientManagedApplication>true</clientManagedApplication>
-</mdclass:CommonModule>

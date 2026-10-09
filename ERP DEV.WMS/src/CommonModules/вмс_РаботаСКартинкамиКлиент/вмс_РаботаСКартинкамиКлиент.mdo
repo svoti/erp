@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5831825a-13b7-42f4-ad8b-1986cff2e33c">
-  <name>вмс_РаботаСКартинкамиКлиент</name>
-  <synonym>
-    <key>ru</key>
-    <value>Работа с картинками клиент</value>
-  </synonym>
-  <clientManagedApplication>true</clientManagedApplication>
-</mdclass:CommonModule>

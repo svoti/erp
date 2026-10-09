@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36c4cbd3-3ad4-4220-8f0f-9464c0ed77f3">
-  <name>АдресноеХранение</name>
-  <synonym>
-    <key>ru</key>
-    <value>Адресное хранение</value>
-  </synonym>
-</mdclass:Style>

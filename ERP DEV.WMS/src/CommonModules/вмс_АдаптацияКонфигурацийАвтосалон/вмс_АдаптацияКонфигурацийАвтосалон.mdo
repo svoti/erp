@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57d08353-fd45-4a81-a2e1-782f19f369c1">
-  <name>вмс_АдаптацияКонфигурацийАвтосалон</name>
-  <synonym>
-    <key>ru</key>
-    <value>Адаптация конфигураций автосалон</value>
-  </synonym>
-  <server>true</server>
-</mdclass:CommonModule>

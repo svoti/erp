@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0347d10-1931-4450-87e6-7860e34f39c2">
-  <name>МакетШтрихкода</name>
-  <synonym>
-    <key>ru</key>
-    <value>Макет штрихкода</value>
-  </synonym>
-</mdclass:CommonTemplate>

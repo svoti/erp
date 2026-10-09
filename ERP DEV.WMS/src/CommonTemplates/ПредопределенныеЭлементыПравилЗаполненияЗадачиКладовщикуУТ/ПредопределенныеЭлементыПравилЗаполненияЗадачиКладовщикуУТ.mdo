@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a5bdb00-3055-4f07-89c4-c11e3cc3ab9a">
-  <name>ПредопределенныеЭлементыПравилЗаполненияЗадачиКладовщикуУТ</name>
-  <synonym>
-    <key>ru</key>
-    <value>Предопределенные элементы правил заполнения задачи кладовщику УТ</value>
-  </synonym>
-</mdclass:CommonTemplate>

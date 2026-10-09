@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="134b6c19-4fc2-4fa4-9c2b-dc7439803012">
-  <name>вмс_ОтборСервер</name>
-  <synonym>
-    <key>ru</key>
-    <value>WMS отбор сервер</value>
-  </synonym>
-  <server>true</server>
-</mdclass:CommonModule>
