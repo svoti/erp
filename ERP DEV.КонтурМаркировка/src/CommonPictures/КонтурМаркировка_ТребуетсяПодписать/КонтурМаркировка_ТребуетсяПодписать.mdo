@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5262eb7-4bb3-44a6-adf9-968ac0d9f711">
-  <name>КонтурМаркировка_ТребуетсяПодписать</name>
-  <synonym>
-    <key>ru</key>
-    <value>Требуется подписать (Контур.Маркировка)</value>
-  </synonym>
-</mdclass:CommonPicture>

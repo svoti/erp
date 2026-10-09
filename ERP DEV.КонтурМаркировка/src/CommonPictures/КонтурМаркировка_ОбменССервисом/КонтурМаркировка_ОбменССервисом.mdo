@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f97a0a7-8207-4731-9fdc-a47bd52a5dfb">
-  <name>КонтурМаркировка_ОбменССервисом</name>
-  <synonym>
-    <key>ru</key>
-    <value>Обмен с сервисом (Контур.Маркировка)</value>
-  </synonym>
-</mdclass:CommonPicture>

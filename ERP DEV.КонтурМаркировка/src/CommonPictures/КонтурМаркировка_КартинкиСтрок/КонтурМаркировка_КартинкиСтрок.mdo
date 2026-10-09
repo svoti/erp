@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64859edc-26e1-4425-8df6-2f8e14c15925">
-  <name>КонтурМаркировка_КартинкиСтрок</name>
-  <synonym>
-    <key>ru</key>
-    <value>Картинки строк (Контур.Маркировка)</value>
-  </synonym>
-</mdclass:CommonPicture>

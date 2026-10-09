@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b03fdb6-2db5-4d50-8fbf-6d44a53d4b41">
-  <name>КонтурМаркировка_ИспользованиеМодуля</name>
-  <synonym>
-    <key>ru</key>
-    <value>Использование модуля (Контур.Маркировка)</value>
-  </synonym>
-  <comment>Для назначения прав пользователям, если модуль или его ПМ добавлены в конфигурацию</comment>
-</mdclass:Role>

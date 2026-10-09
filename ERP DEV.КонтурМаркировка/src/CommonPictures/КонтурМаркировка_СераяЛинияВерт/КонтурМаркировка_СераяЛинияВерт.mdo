@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d77c0c3d-6bd0-4245-94dc-6d737ecfffcc">
-  <name>КонтурМаркировка_СераяЛинияВерт</name>
-  <synonym>
-    <key>ru</key>
-    <value>Серая линия вертикальная (Контур.Маркировка)</value>
-  </synonym>
-</mdclass:CommonPicture>

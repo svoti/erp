@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39683580-f323-490b-97a6-e3526c10d8fe">
-  <name>КонтурМаркировка_ЗеленаяТочкаКонтурная</name>
-  <synonym>
-    <key>ru</key>
-    <value>Зеленая точка контурная (Контур.Маркировка)</value>
-  </synonym>
-</mdclass:CommonPicture>

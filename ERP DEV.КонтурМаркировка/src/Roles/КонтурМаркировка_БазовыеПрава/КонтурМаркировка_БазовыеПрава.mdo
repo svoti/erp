@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c167990-4c51-40b9-b53b-766e2a7b7392">
-  <name>КонтурМаркировка_БазовыеПрава</name>
-  <synonym>
-    <key>ru</key>
-    <value>Базовые права (Контур.Маркировка)</value>
-  </synonym>
-</mdclass:Role>
