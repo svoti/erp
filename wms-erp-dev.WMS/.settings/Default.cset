@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "settings": {
+    "query-in-loop": {
+      "enabled": false
+    },
+    "server-execution-safe-mode": {
+      "enabled": false
+    }
+  }
+}

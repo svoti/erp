@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаИнформация</name>
+    <id>4</id>
+    <items xsi:type="form:Decoration">
+      <name>ТекстСообщения</name>
+      <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>В вашем текущем тарифном плане могут быть ограничения на доступ к некоторым функциям.</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ТекстСообщенияРасширеннаяПодсказка</name>
+        <id>3</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ТекстСообщенияКонтекстноеМеню</name>
+        <id>2</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <height>3</height>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+        <verticalAlign>Center</verticalAlign>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>Подробнее</name>
+      <id>6</id>
+      <title>
+        <key>ru</key>
+        <value>Подробнее</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ПодробнееРасширеннаяПодсказка</name>
+        <id>8</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПодробнееКонтекстноеМеню</name>
+        <id>7</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <handlers>
+          <event>Click</event>
+          <name>ПодробнееНажатие</name>
+        </handlers>
+        <hyperlink>true</hyperlink>
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа информация</value>
+    </title>
+    <verticalStretch>true</verticalStretch>
+    <extendedTooltip>
+      <name>ГруппаИнформацияРасширеннаяПодсказка</name>
+      <id>5</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <verticalSpacing>None</verticalSpacing>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <commandBarLocation>None</commandBarLocation>
+  <showCommandBar>false</showCommandBar>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <width>34</width>
+  <height>7</height>
+  <windowOpeningMode>LockOwner</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <enabled>true</enabled>
+  <showCloseButton>true</showCloseButton>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

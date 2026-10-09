@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Выполнение фоновых заданий (Контур.Маркировка)</value>
+  </title>
+  <items xsi:type="form:Decoration">
+    <name>НадписьРекомендуетсяОтдельныйСеанс</name>
+    <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Для выполнения фоновых заданий рекомендуется открыть отдельный сеанс (окно программы)</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>НадписьРекомендуетсяОтдельныйСеансРасширеннаяПодсказка</name>
+      <id>3</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>НадписьРекомендуетсяОтдельныйСеансКонтекстноеМеню</name>
+      <id>2</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>Label</type>
+    <height>1</height>
+    <autoMaxHeight>true</autoMaxHeight>
+    <horizontalStretch>true</horizontalStretch>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+      <backColor xsi:type="core:ColorDef">
+        <red>255</red>
+        <green>250</green>
+        <blue>217</blue>
+      </backColor>
+    </extInfo>
+  </items>
+  <items xsi:type="form:Decoration">
+    <name>НадписьНеПодходятУсловия</name>
+    <id>13</id>
+    <title>
+      <key>ru</key>
+      <value>&lt;fontsize 10>Выполнить фоновые задания можно только в файловой базе и платформе &lt;/>&lt;fontsize 10>версии &lt;/>&lt;fontsize 10>ниже &lt;/>&lt;fontsize 10>&lt;b>8.3.5&lt;/>&lt;/></value>
+    </title>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>НадписьНеПодходятУсловияРасширеннаяПодсказка</name>
+      <id>15</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>НадписьНеПодходятУсловияКонтекстноеМеню</name>
+      <id>14</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <formatted>true</formatted>
+    <type>Label</type>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+      <backColor xsi:type="core:ColorDef">
+        <red>251</red>
+        <green>212</green>
+        <blue>212</blue>
+      </backColor>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаИнтервал</name>
+    <id>19</id>
+    <items xsi:type="form:FormField">
+      <name>ИнтервалОбработки</name>
+      <id>10</id>
+      <title>
+        <key>ru</key>
+        <value>Выполнять каждые (сек)</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ИнтервалОбработки</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ИнтервалОбработкиРасширеннаяПодсказка</name>
+        <id>12</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ИнтервалОбработкиКонтекстноеМеню</name>
+        <id>11</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>false</horizontalStretch>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>НадписьСтатусВыполнения</name>
+      <id>16</id>
+      <title>
+        <key>ru</key>
+        <value>Ожидание следующего выполнения...</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>НадписьСтатусВыполненияРасширеннаяПодсказка</name>
+        <id>18</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>НадписьСтатусВыполненияКонтекстноеМеню</name>
+        <id>17</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <textColor xsi:type="core:ColorRef">
+        <color>Web.Green</color>
+      </textColor>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+        <bold>false</bold>
+        <italic>true</italic>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+      </font>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ГруппаИнтервалРасширеннаяПодсказка</name>
+      <id>20</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаЗапуститьПрервать</name>
+    <id>4</id>
+    <items xsi:type="form:Button">
+      <name>Кнопка_ЗапуститьВыполнениеЗаданий</name>
+      <id>8</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>Кнопка_ЗапуститьВыполнениеЗаданийРасширеннаяПодсказка</name>
+        <id>9</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Hyperlink</type>
+      <commandName>Form.Command.ЗапуститьВыполнениеЗаданий</commandName>
+      <buttonImportance>Normal</buttonImportance>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
+      <name>Кнопка_ПрерватьВыполнениеЗаданий</name>
+      <id>6</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>Кнопка_ПрерватьВыполнениеЗаданийРасширеннаяПодсказка</name>
+        <id>7</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Hyperlink</type>
+      <commandName>Form.Command.ПрерватьВыполнениеЗаданий</commandName>
+      <buttonImportance>Normal</buttonImportance>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ГруппаЗапуститьПрерватьРасширеннаяПодсказка</name>
+      <id>5</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>AlwaysHorizontal</group>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <windowOpeningMode>DontBlock</windowOpeningMode>
+  <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <enabled>true</enabled>
+  <showTitle>auto</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>ИнтервалОбработки</name>
+    <title>
+      <key>ru</key>
+      <value>Интервал обработки</value>
+    </title>
+    <id>23</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <fillChecking>ShowError</fillChecking>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>ИнтервалОбработки</segments>
+    </settingsSavedData>
+  </attributes>
+  <attributes>
+    <name>СтатусОбработки</name>
+    <title>
+      <key>ru</key>
+      <value>Статус обработки</value>
+    </title>
+    <id>24</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПервыйЗапуск</name>
+    <title>
+      <key>ru</key>
+      <value>Первый запуск</value>
+    </title>
+    <id>25</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <formCommands>
+    <name>ЗапуститьВыполнениеЗаданий</name>
+    <title>
+      <key>ru</key>
+      <value>Запустить выполнение фоновых заданий</value>
+    </title>
+    <id>21</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗапуститьВыполнениеЗаданий</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
+  </formCommands>
+  <formCommands>
+    <name>ПрерватьВыполнениеЗаданий</name>
+    <title>
+      <key>ru</key>
+      <value>Прервать выполнение фоновых заданий</value>
+    </title>
+    <id>22</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПрерватьВыполнениеЗаданий</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>
